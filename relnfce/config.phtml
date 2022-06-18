@@ -1,0 +1,254 @@
+<?php
+require_once 'Config.php';
+require_once 'selecao.php';
+$cfg = new Config();
+$cfg->carregaDados();
+?>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" type="text/css" href="https://datatables.net/media/css/site-examples.css">
+        <!-- buttons -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.1/css/buttons.dataTables.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.flash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.html5.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.print.min.js"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="../../../sistema/temas/<?php echo $_SESSION["USUARIO"]["TEMA"]; ?>/style.css">         
+        <script type="text/javascript" src="selecao.js"></script>
+        <link id="IMAGE_PATH" href="<?php echo IMAGE_PATH; ?>" />
+
+        <style>
+            .fonte{
+                font-size: 14px;
+            }
+            .fundotd{
+                background-color: #f58322;
+                color: #ffffff;
+            }
+        </style> 
+    </head>
+    <body onLoad="timer = setTimeout('document.formulario.submit();', 30000);">
+
+        <!-- novo -->
+        <div class="container-fluid">
+            <div class="col-lg-12 col-md-12 col-xs-12 mt-2">
+                <h5>Relat&oacute;rio de NFC-e</h5>
+            </div>
+            <form id="formulario" name="formulario" method="post" data-total-paginas="<?php echo $cfg->totalPaginas; ?>">
+                <div class="form-row">
+                    <div class="col-lg-2 col-md-2 col-xs-12">
+                        <div class="form-group">
+                            <label class="fonte">Data inicio <span class="text-danger">*</span></label>
+                            <input type="date" name="dataproc_i" class="form-control input" id="dataproc_i" value="<?php echo $cfg->datai; ?>" required>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-xs-12">
+                        <div class="form-group">
+                            <label class="fonte">Data fim <span class="text-danger">*</span></label>
+                            <input type="date" name="dataproc_f" class="form-control input" id="dataproc_f" value="<?php echo $cfg->dataf; ?>" required>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <div class="form-group">
+                            <label class="fonte">Status</label>
+                            <select class="form-control" name="tipoStatus">
+                                <option selected value="999">Todos</option>
+                                <option value="0">Invalido</option>
+                                <option value="1">Processado</option>
+                                <option value="2">Indeterminado</option>
+                                <option value="3">Inutilizado</option>
+                                <option value="4">Cancelado Contingencia</option>
+                                <option value="5">Cancelado Operador</option>
+                                <option value="100">Pedente de Protocolo</option>
+                                <option value="101">Emitida em Contigencia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-xs-12">
+                        <div class="form-group">
+                            <label class="fonte">PDV</label>
+                            <select class="form-control" name="pdv">
+                                <option selected value="999">Todos</option>
+                                <?php
+                                while ($result = $conpdv->fetch_array()) {
+                                    ?>
+                                    <option value="<?php echo $result['codigo'] ?>"><?php echo $result['codigo'] ?></option>
+                                <?php } ?>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-12">
+                        <div class="form-group">
+                            <label class="fonte">Cupom</label>
+                            <input name="cupom" type="text" value="<?php echo $cfg->cupom; ?>" class="form-control input" minlength="6" maxlength="6">
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-12">
+                        <div class="form-group">
+                            <label class="fonte">NFCe</label>
+                            <input name="nfce" type="text" value="<?php echo $cfg->nfce; ?>" class="form-control input">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-xs-12">
+                        <div class="form-group">
+                            <label class="fonte">Chave XML</label>
+                            <input name="chave" type="text" value="<?php echo $cfg->chave; ?>" class="form-control input" >
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2col-xs-12">
+                        <div class="form-group">
+                            <label class="fonte" style="color:transparent">.</label>
+                            <input type="submit" class="btn btn-info form-control" value="Visualizar">
+                        </div>
+                    </div>
+
+            </form>  
+        </div>  
+
+        <!-- fim novo -->
+
+
+
+        <table class="table table-bordered display nowrap dataTable cell-border" id="example">
+            <thead>
+                <tr>
+                    <td align="center" class="fundotd">N&uacutemero Cupom</td>
+                    <td align="center" class="fundotd">N&uacutemero NFCe</td>
+                    <td align="center" class="fundotd">Status</td>
+                    <td align="center" class="fundotd">Chave NFCe</td>
+                    <td align="center" class="fundotd">Pdv</td>
+                    <td align="center" class="fundotd">Data</td>
+                    <td align="center" class="fundotd">Valor Cupom</td>
+                </tr>
+            </thead>
+            <?php
+            if ($cfg->linhas != null) {
+                foreach ($cfg->linhas as $v):
+                    ?>
+                    <tr bgcolor="#FFFFFF" onMouseOver="this.bgColor = '#CCCCFF'"
+                        onMouseOut="this.bgColor = '#FFFFFF'">
+                        <td align="center"><?php echo $v['NroCupom']; ?></td>
+                        <td align="center"><?php echo $v['numero_nfe']; ?></td>
+                        <td align="center"><?php
+                            switch ($v['Status']) {
+                                case 0:
+                                    echo "Invalido";
+                                    break;
+                                case 1:
+                                    echo "Processado";
+                                    break;
+                                case 2:
+                                    echo "Indeterminado";
+                                    break;
+                                case 3:
+                                    echo "Inutilizado";
+                                    break;
+                                case 4:
+                                    echo "Canc. Contigencia";
+                                    break;
+                                case 5:
+                                    echo "Canc. Operador";
+                                    break;
+                            }
+                            ?></td>
+                        <td align="center"><?php echo $v['chave_nfe']; ?></td>
+                        <td align="center"><?php echo $v['Pdv']; ?></td>
+                        <td align="center"><?php echo formata_data($v['DataProc']); ?></td>
+                        <td align="center"><?php echo $v['total']; ?></td>
+
+                    </tr>
+                    <?php
+                endforeach;
+            } else {
+                switch ($_POST['inputStatus']) {
+                    case 0:
+                        echo "<tr bgcolor=\"#FFFFFF\"> <td colspan=\"7\" align=\"center\">Nenhum registro encontrado</td> </tr>";
+                        break;
+                    case 1:
+                        echo "<tr bgcolor=\"#FFFFFF\"> <td colspan=\"7\" align=\"center\">Nenhum registro encontrado</td> </tr>";
+                        break;
+                    case 2:
+                        echo "<tr bgcolor=\"#FFFFFF\"> <td colspan=\"7\" align=\"center\">Nenhum registro encontrado</td> </tr>";
+                        break;
+                    case 3:
+                        echo "<tr bgcolor=\"#FFFFFF\"> <td colspan=\"7\" align=\"center\">Nenhum registro encontrado</td> </tr>";
+                        break;
+                    case 4:
+                        echo "<tr bgcolor=\"#FFFFFF\"> <td colspan=\"7\" align=\"center\">Nenhum registro encontrado</td> </tr>";
+                        break;
+                    case 5:
+                        echo "<tr bgcolor=\"#FFFFFF\"> <td colspan=\"7\" align=\"center\">Nenhum registro encontrado</td> </tr>";
+                        break;
+                    case 100:
+                        echo "<tr bgcolor=\"#FFFFFF\"> <td colspan=\"7\" align=\"center\">Nenhum registro encontrado</td> </tr>";
+                        break;
+                    case 101:
+                        echo "<tr bgcolor=\"#FFFFFF\"> <td colspan=\"7\" align=\"center\">Nenhum registro encontrado</td> </tr>";
+                        break;
+                    case 999:
+                        echo "<tr bgcolor=\"#FFFFFF\"> <td colspan=\"7\" align=\"center\">Nenhum registro encontrado</td> </tr>";
+                }
+            }
+            ?>
+        </tr>
+    </table>
+
+</div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('#example').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                {
+                extend: 'excelHtml5',
+                title: 'Relatorio NFCe',
+                text: 'Exportar Excel'
+            },
+            {
+                extend: 'csvHtml5',
+                title: 'Relatorio NFCe',
+                text: 'Exportar CSV'
+                
+            },
+            {
+                extend: 'pdfHtml5',
+                title: 'Relatorio NFCe',
+                text: 'Exportar PDF'
+            },
+            {
+                extend: 'copyHtml5',
+                title: 'Relatorio NFCe',
+                text: 'Copiar para &aacute;rea de transfer&ecirc;ncia'
+            },
+            {
+                extend: 'print',
+                title: 'Relatorio NFCe',
+                text: 'Imprimir'
+            }
+            ],
+
+            "filter": false,
+            "language": {
+            "url": "//cdn.datatables.net/plug-ins/1.10.22/i18n/Portuguese-Brasil.json",
+                "oAria": {
+                    "sSortAscending": ": Ordenar colunas de forma ascendente",
+                    "sSortDescending": ": Ordenar colunas de forma descendente"
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
