@@ -9,8 +9,8 @@ Arius_Loja/tefconsPleno/<br>
 Extração de dados em arquivo para conciliação de cartões.<br>
 <img src="/tefconsPleno/tefcons.png" alt="img"/>
 <br><br>
-Arius_Loja/relnfce/
-Relatório para visualização de Cupons NFCE<br>
+Arius_Loja/relnfce/<br>
+Relatório para visualização de Cupons NFCE <br>
 <img src="/relnfce/relnfce.png" alt="img"/>
 <br>
  Projetos Arius
