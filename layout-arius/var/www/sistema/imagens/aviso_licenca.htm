@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Sistema Retaguarda Front-Office</title
+    </head>
+
+	<style>
+		.tblError {
+			border: 1px solid #FF0000;
+			background-color: #FFFFCC;
+			padding: 4px 10px 10px 7px;
+			font-family: arial;
+			font-size: 13px;
+		}
+		
+		.tblHeadError {
+			background-color: #FF0000;
+			font-weight: bold;
+			color: #FFFFFF;
+			font-family: arial;
+			font-size: 15px;
+		}
+		
+		div.errorhead {
+			font-weight: bold;
+			color: #ffffff;
+			text-align: left;
+			background-image: url(imagens/s_error.png);
+			background-repeat: no-repeat;
+			background-position: 5px 50%;
+			padding: 0px 0px 0px 25px;
+			margin: 0px;
+		}
+	</style>
+	
+    <body>
+		<table cellspacing="0" cellpadding="0" border="0" width="100%" height="70%">
+			<tr>
+				<td valign="middle" align="center">
+					<table cellpadding="0" cellspacing="0" border="0" width="350">
+						<tr>
+							<th colspan="3" class="tblHeadError">
+								<div class="errorhead">Validade da Licença de Uso</div>
+							</th>
+						</tr>
+						<tr>
+							<td colspan="3" class="tblError">
+								{erro}<br><br><br>
+								<div align="center">{button}</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+    </body>
+</html>

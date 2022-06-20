@@ -1,0 +1,356 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../../../sistema/temas/{TEMA}/style.css">
+		<link rel='stylesheet' media='screen' type='text/css' href='../../../sistema/calendario/calendar-system.css'>
+		<script language='JavaScript' type='text/javascript' src='../../../sistema/calendario/date.js'></script>
+		<script language='JavaScript' type='text/javascript' src='../../../sistema/calendario/calendar.js'></script>
+		<script language='JavaScript' type='text/javascript' src='../../../sistema/calendario/calendar-en.js'></script>
+		<script language='JavaScript' type='text/javascript' src='../../../sistema/calendario/calendar-setup.js'></script>
+		<script type="text/javascript" src="../../../sistema/js/prototype/prototype.js"></script>
+		<script type="text/javascript" src="./config.js"></script>
+		<script type="text/javascript" src="../../../sistema/funcoes2.js"></script>
+	</head>
+	<body class="meio">
+		<form name="form" id="form" method="post" action="config.php?acao=gravar">
+				<table class="meio" cellspacing="4">
+					<tr>
+						<td colspan="2" class="titulo_meio" valign="top">
+							&nbsp;Pdv
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="2" height="20" class="mensagem_meio">
+							{mensagem}
+						</td>
+					</tr>
+					
+					<tr>
+						<td valign="top">
+							<table border="0" cellpadding="1" cellspacing="0" width="400" class="meio">
+								<tr>
+									<td colspan="2" class="subtitulo_meio" valign="top">
+										&nbsp;Dados do Pdv
+									</td>
+								</tr>
+								
+								<tr>
+									<td colspan="2">
+										<br />
+									</td>
+								</tr>
+								
+								<tr>
+									<td width="120" class="chamada_meio">Código:</td>
+									<td width="280">
+										<input type="text" name="codigo" id="codigo" size="3" maxlength="3" value="{codigo}" class="meio" style="text-align:right">
+									</td>
+								</tr>
+								<tr>
+									<td class="chamada_meio">Perfil:</td>
+									<td>
+										<select name='perfil' class='meio'>
+											<!--START BLOCK : blk_perfil-->
+												<option value="{cod}" {selected}>
+													{descr}
+												</option>
+											<!--END BLOCK : blk_perfil-->
+										</select>
+									</td>
+								</tr>
+			<!--                <tr>
+									<td class="chamada_meio">Utilização:</td>
+									<td>{combo_utilizacao}</td>
+								</tr>-->                
+								<tr>
+									<td class="chamada_meio">Tipo:</td>
+									<td>
+										<select name='tipo' class='meio'>
+											<!--START BLOCK : blk_tipo-->
+												<option value="{cod}" {selected}>
+													{descr}
+												</option>
+											<!--END BLOCK : blk_tipo-->
+										</select>
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="chamada_meio" color="{color}">Porta Pay&Go:</td>
+									<td width="280">
+										<input type="text" name="portaTef" size="6" maxlength="5" value="{portaTef}" class="meio" style="text-align:right" {disabled} />
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="chamada_meio">Permite Consulta:</td>
+									<td>
+										<select name='permiteconsulta' class='meio'>
+											<!--START BLOCK : blk_permiteconsulta-->
+											<option value="{cod}" {selected}>
+												{descr}
+											</option>
+											<!--END BLOCK : blk_permiteconsulta-->
+										</select>
+										&nbsp;&nbsp;&nbsp;
+										Consulta em loop:
+										<input type='checkbox' name='tipoconsulta' {checked_tipoconsulta} />
+									</td>
+								</tr>
+								<tr>
+									<td class="chamada_meio">Tecla Multiplicadora:</td>
+									<td>
+										<input type="text" name="permiteMultiplicadora" size="6" maxlength="4" value="{permiteMultiplicadora}" class="meio" style="text-align:right" OnKeyup="javascript: mascara_num(this, 0);"/>
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="chamada_meio">Setor:</td>
+									<td>
+										<select name='setor' class='meio'>
+											<!--START BLOCK : blk_setor-->
+											<option value="{cod}" {selected}>
+												{descr}
+											</option>
+											<!--END BLOCK : blk_setor-->
+										</select>
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="chamada_meio">Imprime pedido:</td>
+									<td>
+										<select name='imprimePedido' class='meio'>
+											<!--START BLOCK : blk_imprimePedido-->
+											<option value="{cod}" {selected}>
+												{descr}
+											</option>
+											<!--END BLOCK : blk_imprimePedido-->
+										</select>
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="chamada_meio">Plu padrão:</td>
+									<td>
+										<select name='plupadrao' class='meio'>
+											<!--START BLOCK : blk_plupadrao-->
+											<option value="{cod}" {selected}>
+												{descr}
+											</option>
+											<!--END BLOCK : blk_plupadrao-->
+										</select>
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="chamada_meio" nowrap >
+										Tipo de tela:
+									</td>
+									<td>
+										{slct_tipo_tela}
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="chamada_meio" nowrap >
+										Tela cheia:
+									</td>
+									<td>
+										{slct_tela_cheia}
+									</td>
+								</tr>
+								
+								<!--START BLOCK : blk_bombas-->
+								<tr>
+									<td class="chamada_meio" nowrap >
+										Bombas:
+									</td>
+									<td>
+										{slct_bombas}
+									</td>
+								</tr>
+								<!--END BLOCK : blk_bombas-->
+								
+								<tr>
+									<td class="chamada_meio" nowrap >
+										Fiscal abre gaveta:
+									</td>
+									<td>
+										{fiscalAbreGaveta}
+									</td>
+								</tr>
+                                <tr>
+                                        <td class="chamada_meio" nowrap >
+                                                Solicitar Comanda:
+                                        </td>
+                                        <td>
+                                                {flgSolicitarComanda}
+                                        </td>
+                                </tr>
+                                        <td class="chamada_meio" nowrap >
+                                                Trata Vasilhame:
+                                        </td>
+                                        <td>
+                                                <input type='checkbox' name='vasil' {checked_vasil} />
+                                        </td>
+                                </tr>                                
+                                </tr>
+                                        <td class="chamada_meio" nowrap >
+                                                Self Checkout:
+                                        </td>
+                                        <td>
+                                                <input type='checkbox' name='self' {checked_self} />
+                                        </td>
+                                </tr>                                
+                                <!--START BLOCK : blk_exibe_config_sat-->
+                                <tr>
+                                    <td class="subtitulo_meio" colspan="2" nowrap>
+                                         Configuração Sat
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="chamada_meio" nowrap >
+                                        Fabricante Sat:
+                                    </td>
+                                    <td>
+                                         <select name='sat_fabricante' class='meio'>
+                                            <!--START BLOCK : blk_sat_fabricante-->
+                                            <option value="{cod}" {selected}>
+                                                {descr}
+                                            </option>
+                                            <!--END BLOCK : blk_sat_fabricante-->
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="chamada_meio" nowrap>  
+                                        Senha Sat:
+                                    </td>
+                                    <td>
+                                        <input type="text" name="sat_senha" size="16" maxlength="16" value="{satSenha}" class="meio" style="text-align:left" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="chamada_meio" nowrap >
+                                        Ip:Porta Sat:
+                                    </td>
+                                    <td>
+                                        <input type="text" name="sat_ip_porta" size="20" maxlength="20" value="{satIpPorta}" class="meio" style="text-align:left" />
+                                    </td>
+                                </tr>
+                                <!--END BLOCK : blk_exibe_config_sat-->
+								<tr>
+									<td>
+										<br />
+									</td>
+								</tr>
+								
+								<tr>
+									<td colspan="2">
+										<input type="submit" value="gravar" class="meio" />
+										<input type="button" value="Limpar" id="limpar" class="meio" />
+									</td>
+								</tr>
+								
+								<tr>
+									<td>
+										<br />
+									</td>
+								</tr>
+								
+							</table>
+						</td>
+						
+						<td valign="top">
+							<table class="meio">
+								
+								<tr>
+									<td class="subtitulo_meio" valign="top">
+										&nbsp;Pdvs cadastrados
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<br />
+									</td>
+								</tr>
+								
+								<tr>
+									<td>
+										<table class="datagrid" width="400" border="0" cellpadding="1" cellspacing="0">
+											<tr>
+												<td style="color:white;" class="cabecalho_meio">
+													Pdv
+												</td>
+												<td  style="color:white;" class="cabecalho_meio">
+													Perfil
+												</td>
+												<td style="color:white;" class="cabecalho_meio">
+													Tipo
+												</td>
+												
+												<!--START BLOCK : blk_exibe_cadastramento_cab-->
+												<td style="color:white;" class="cabecalho_meio">
+													Cadastramento cat60
+												</td>
+												<!--END BLOCK : blk_exibe_cadastramento_cab-->
+												
+												<td style="color:white;" colspan="2" class="cabecalho_meio">
+													Visualizar/excluir
+												</td>
+											</tr>
+											
+											<!--START BLOCK : blk_pdvs-->
+											<tr class="{odd_even}">
+												<td class="chamada_meio" nowrap="nowrap">
+													{pdv}
+												</td>
+												<td class="chamada_meio" nowrap="nowrap">
+													{perfil}
+												</td>
+												<td class="chamada_meio" nowrap="nowrap">
+													{tipo}
+												</td>
+												
+												<!--START BLOCK : blk_exibe_cadastramento_val-->
+												<td align="center" class="chamada_meio" nowrap="nowrap">
+													{cadastramento}
+													<!--START BLOCK : blk_remove_cat60-->
+													<a href="#" style="cursor: pointer;" onclick="javascript: if( confirm( 'Remover cadastro para cat60 do pdv {pdv}?' ) ){document.location='./config.php?acao=cat60del&pdv={pdv}'}else{return false;};">
+														<img src="../../../sistema/imagens/b_drop.png" border="0" alt="Remover registro cat60" title="Remover registro cat60" />
+													</a>
+													<!--END BLOCK : blk_remove_cat60-->
+													
+												</td>
+												<!--END BLOCK : blk_exibe_cadastramento_val-->
+												
+												<td align="center" class="chamada_meio" nowrap="nowrap">
+													<a href="./config.php?acao=visualizar&pdv={pdv}" style="cursor: pointer;">
+														<img src="../../../sistema/imagens/detalhe.png" border="0" alt="Visualizar" title="Visualizar" />
+													</a>
+												</td>
+												<td align="center" class="chamada_meio" nowrap="nowrap">
+													<a href="#" onclick="javascript: if(confirm( 'Remover o pdv {pdv}?' )){document.location='./config.php?acao=excluir&pdv={pdv}';}else{return false;};" style="cursor: pointer;">
+														<img src="../../../sistema/imagens/b_drop.png" border="0" alt="Excluir" title="Excluir" />
+													</a>
+												</td>
+												
+											</tr>
+											<!--END BLOCK : blk_pdvs-->
+										</table>
+									</td>
+								</tr>
+								
+								
+								
+							</table>
+						</td>
+						
+					</tr>
+				</table>
+
+		</form>
+
+	</body>
+</html>

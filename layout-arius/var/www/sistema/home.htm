@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../sistema/temas/{TEMA}/style.css" />
+		  <script type="text/javascript" src="./prototype.js"></script>
+			<script type="text/javascript" src="./funcoes.js"></script>
+			<script language="javascript">
+			 function ftp()
+			 {
+				windowOpen('ftp.php?cgc={CGC}','', 430, 350, 'no');
+			 }
+		 </script>
+    </head>
+    <body class="meio">
+
+        <table border="0" width="100%" class="meio">
+            <tr><td class="titulo_pagina">Bem-vindo ao Arius Loja - Versão {VERSAO}</td></tr>
+				<tr><td class="meio">Rodando em servidor {SERVER_AND_SO}</td></tr>
+            <tr><td><br></td></tr>
+        </table>
+        <table border="0" width="300" class="meio">
+            <tr><td><a href="phpinfo.php" class="meio">Configurações do Servidor (phpinfo)</a></td></tr>
+            <tr><td><a href='{phpmyadm}' target='_blanc' class='meio'>Banco de Dados (phpMyAdmin)</a></td></tr>
+<!--            <tr><td><a href="../ferramentas/configuracoes/importacao/importacao.php?cgc={CGC}" class="meio">Atualização de licenças</a></td></tr> -->
+
+            <tr><td><a href="#" class="meio" onclick="ftp();">Atualização de licenças</a></td></tr>
+            <tr><td><br></td></tr>
+            <tr><td class="subtitulo_meio" height="20">Cliente</td></tr>
+            <tr><td>CNPJ:{CGC} </td></tr>
+            <tr><td>{RAZAO} Loja/{LOJA}</td></tr>
+            <tr><td>{CIDADE} - {UF}</td></tr>
+            <tr><td><br></td></tr>
+            <tr><td class="subtitulo_meio" height="20">Desenvolvimento</td></tr>
+            <tr><td>Arius Sistemas.</td></tr>
+			<tr><td><br></td></tr>
+        </table>
+		<!-- INFORMAÇÃO DA VALIDADE DA LICENÇA -->
+        {data}
+        <!-- INFORMAÇÃO DA VALIDADE DO CERTIFICADO NFE -->
+        {certificadonfe}
+
+
+ <iframe id="chat" style="WIDTH: 200px; HEIGHT: 31px; position:absolute; bottom:0px; right:10px;"
+      src="http://creautomacao.mysuite.com.br/empresas/cra/verificaID.php"
+        frameborder=0 scrolling=no>
+</iframe>
+
+   </body>
+</html>

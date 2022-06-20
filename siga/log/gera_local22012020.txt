@@ -1,0 +1,1267 @@
+
+____________________________________________________________
+Loja: 9027 - Data de Geracao 22-01-2020 09:31:34
+Arquivo gerado: tefconsPBLJ2721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9086 - Data de Geracao 22-01-2020 09:31:39
+Arquivo gerado: tefconsPBLJ8621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9055 - Data de Geracao 22-01-2020 09:31:42
+Arquivo gerado: tefconsPBLJ5521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9013 - Data de Geracao 22-01-2020 09:31:45
+Arquivo gerado: tefconsPBLJ1321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9061 - Data de Geracao 22-01-2020 09:31:48
+Arquivo gerado: tefconsPBLJ6121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9087 - Data de Geracao 22-01-2020 09:31:52
+Arquivo gerado: tefconsPBLJ8721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9026 - Data de Geracao 22-01-2020 09:31:55
+Arquivo gerado: tefconsPBLJ2621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9071 - Data de Geracao 22-01-2020 09:32:08
+Arquivo gerado: tefconsPBLJ7121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9014 - Data de Geracao 22-01-2020 09:32:12
+Arquivo gerado: tefconsPBLJ1421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9062 - Data de Geracao 22-01-2020 09:32:15
+Arquivo gerado: tefconsPBLJ6221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9088 - Data de Geracao 22-01-2020 09:32:19
+Arquivo gerado: tefconsPBLJ8821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9041 - Data de Geracao 22-01-2020 09:32:22
+Arquivo gerado: tefconsPBLJ4121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9007 - Data de Geracao 22-01-2020 09:32:26
+Arquivo gerado: tefconsPBLJ721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9012 - Data de Geracao 22-01-2020 09:32:29
+Arquivo gerado: tefconsPBLJ1221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9024 - Data de Geracao 22-01-2020 09:32:32
+Arquivo gerado: tefconsPBLJ2421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9085 - Data de Geracao 22-01-2020 09:32:35
+Arquivo gerado: tefconsPBLJ8521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9023 - Data de Geracao 22-01-2020 09:32:39
+Arquivo gerado: tefconsPBLJ2321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9025 - Data de Geracao 22-01-2020 09:32:43
+Arquivo gerado: tefconsPBLJ2521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9084 - Data de Geracao 22-01-2020 09:32:46
+Arquivo gerado: tefconsPBLJ8421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9020 - Data de Geracao 22-01-2020 09:32:49
+Arquivo gerado: tefconsPBLJ2021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9075 - Data de Geracao 22-01-2020 09:32:53
+Arquivo gerado: tefconsPBLJ7521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9016 - Data de Geracao 22-01-2020 09:32:57
+Arquivo gerado: tefconsPBLJ1621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9034 - Data de Geracao 22-01-2020 09:33:02
+Arquivo gerado: tefconsPBLJ3421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9044 - Data de Geracao 22-01-2020 09:33:06
+Arquivo gerado: tefconsPBLJ4421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9058 - Data de Geracao 22-01-2020 09:33:09
+Arquivo gerado: tefconsPBLJ5821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9072 - Data de Geracao 22-01-2020 09:33:13
+Arquivo gerado: tefconsPBLJ7221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9078 - Data de Geracao 22-01-2020 09:33:16
+Arquivo gerado: tefconsPBLJ7821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9082 - Data de Geracao 22-01-2020 09:33:20
+Arquivo gerado: tefconsPBLJ8221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9005 - Data de Geracao 22-01-2020 09:33:25
+Arquivo gerado: tefconsPBLJ521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9009 - Data de Geracao 22-01-2020 09:33:28
+Arquivo gerado: tefconsPBLJ921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9011 - Data de Geracao 22-01-2020 09:33:32
+Arquivo gerado: tefconsPBLJ1121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9031 - Data de Geracao 22-01-2020 09:33:36
+Arquivo gerado: tefconsPBLJ3121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9040 - Data de Geracao 22-01-2020 09:33:39
+Arquivo gerado: tefconsPBLJ4021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9060 - Data de Geracao 22-01-2020 09:33:42
+Arquivo gerado: tefconsPBLJ6021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1062 - Data de Geracao 22-01-2020 09:38:05
+Arquivo gerado: tefconsRHLJ6221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1204 - Data de Geracao 22-01-2020 09:38:09
+Arquivo gerado: tefconsRHLJ20421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1046 - Data de Geracao 22-01-2020 09:38:12
+Arquivo gerado: tefconsRHLJ4621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1051 - Data de Geracao 22-01-2020 09:38:15
+Arquivo gerado: tefconsRHLJ5121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1191 - Data de Geracao 22-01-2020 09:38:19
+Arquivo gerado: tefconsRHLJ19121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1232 - Data de Geracao 22-01-2020 09:38:22
+Arquivo gerado: tefconsRHLJ23221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1082 - Data de Geracao 22-01-2020 09:38:25
+Arquivo gerado: tefconsRHLJ8221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1012 - Data de Geracao 22-01-2020 09:38:28
+Arquivo gerado: tefconsRHLJ1221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1100 - Data de Geracao 22-01-2020 09:38:32
+Arquivo gerado: tefconsRHLJ10021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1074 - Data de Geracao 22-01-2020 09:38:35
+Arquivo gerado: tefconsRHLJ7421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1010 - Data de Geracao 22-01-2020 09:38:39
+Arquivo gerado: tefconsRHLJ1021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1241 - Data de Geracao 22-01-2020 09:38:52
+Arquivo gerado: tefconsRHLJ24121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1037 - Data de Geracao 22-01-2020 09:38:56
+Arquivo gerado: tefconsRHLJ3721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1027 - Data de Geracao 22-01-2020 09:38:59
+Arquivo gerado: tefconsRHLJ2721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1026 - Data de Geracao 22-01-2020 09:39:02
+Arquivo gerado: tefconsRHLJ2621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1126 - Data de Geracao 22-01-2020 09:39:05
+Arquivo gerado: tefconsRHLJ12621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1172 - Data de Geracao 22-01-2020 09:39:09
+Arquivo gerado: tefconsRHLJ17221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1008 - Data de Geracao 22-01-2020 09:39:12
+Arquivo gerado: tefconsRHLJ821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1090 - Data de Geracao 22-01-2020 09:39:15
+Arquivo gerado: tefconsRHLJ9021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1035 - Data de Geracao 22-01-2020 09:39:18
+Arquivo gerado: tefconsRHLJ3521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1064 - Data de Geracao 22-01-2020 09:39:22
+Arquivo gerado: tefconsRHLJ6421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1110 - Data de Geracao 22-01-2020 09:39:27
+Arquivo gerado: tefconsRHLJ11021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1173 - Data de Geracao 22-01-2020 09:39:38
+Arquivo gerado: tefconsRHLJ17321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1055 - Data de Geracao 22-01-2020 09:39:41
+Arquivo gerado: tefconsRHLJ5521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1196 - Data de Geracao 22-01-2020 09:39:46
+Arquivo gerado: tefconsRHLJ19621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1054 - Data de Geracao 22-01-2020 09:39:59
+Arquivo gerado: tefconsRHLJ5421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1134 - Data de Geracao 22-01-2020 09:40:02
+Arquivo gerado: tefconsRHLJ13421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1129 - Data de Geracao 22-01-2020 09:40:06
+Arquivo gerado: tefconsRHLJ12921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1058 - Data de Geracao 22-01-2020 09:40:09
+Arquivo gerado: tefconsRHLJ5821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1052 - Data de Geracao 22-01-2020 09:40:12
+Arquivo gerado: tefconsRHLJ5221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1030 - Data de Geracao 22-01-2020 09:40:17
+Arquivo gerado: tefconsRHLJ3021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1045 - Data de Geracao 22-01-2020 09:40:20
+Arquivo gerado: tefconsRHLJ4521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1200 - Data de Geracao 22-01-2020 09:40:23
+Arquivo gerado: tefconsRHLJ20021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1171 - Data de Geracao 22-01-2020 09:40:27
+Arquivo gerado: tefconsRHLJ17121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1063 - Data de Geracao 22-01-2020 09:40:30
+Arquivo gerado: tefconsRHLJ6321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1065 - Data de Geracao 22-01-2020 09:40:33
+Arquivo gerado: tefconsRHLJ6521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1066 - Data de Geracao 22-01-2020 09:40:36
+Arquivo gerado: tefconsRHLJ6621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1043 - Data de Geracao 22-01-2020 09:40:39
+Arquivo gerado: tefconsRHLJ4321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1187 - Data de Geracao 22-01-2020 09:40:42
+Arquivo gerado: tefconsRHLJ18721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1142 - Data de Geracao 22-01-2020 09:40:46
+Arquivo gerado: tefconsRHLJ14221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1019 - Data de Geracao 22-01-2020 09:40:49
+Arquivo gerado: tefconsRHLJ1921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1077 - Data de Geracao 22-01-2020 09:40:52
+Arquivo gerado: tefconsRHLJ7721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1057 - Data de Geracao 22-01-2020 09:40:55
+Arquivo gerado: tefconsRHLJ5721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1080 - Data de Geracao 22-01-2020 09:40:59
+Arquivo gerado: tefconsRHLJ8021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1183 - Data de Geracao 22-01-2020 09:41:04
+Arquivo gerado: tefconsRHLJ18321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1032 - Data de Geracao 22-01-2020 09:41:07
+Arquivo gerado: tefconsRHLJ3221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1081 - Data de Geracao 22-01-2020 09:41:10
+Arquivo gerado: tefconsRHLJ8121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1086 - Data de Geracao 22-01-2020 09:41:13
+Arquivo gerado: tefconsRHLJ8621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1089 - Data de Geracao 22-01-2020 09:41:16
+Arquivo gerado: tefconsRHLJ8921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1025 - Data de Geracao 22-01-2020 09:41:19
+Arquivo gerado: tefconsRHLJ2521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1151 - Data de Geracao 22-01-2020 09:41:23
+Arquivo gerado: tefconsRHLJ15121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1014 - Data de Geracao 22-01-2020 09:41:27
+Arquivo gerado: tefconsRHLJ1421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1033 - Data de Geracao 22-01-2020 09:41:30
+Arquivo gerado: tefconsRHLJ3321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1038 - Data de Geracao 22-01-2020 09:41:33
+Arquivo gerado: tefconsRHLJ3821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1105 - Data de Geracao 22-01-2020 09:41:36
+Arquivo gerado: tefconsRHLJ10521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1085 - Data de Geracao 22-01-2020 09:41:40
+Arquivo gerado: tefconsRHLJ8521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1079 - Data de Geracao 22-01-2020 09:41:43
+Arquivo gerado: tefconsRHLJ7921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1214 - Data de Geracao 22-01-2020 09:41:47
+Arquivo gerado: tefconsRHLJ21421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1016 - Data de Geracao 22-01-2020 09:41:50
+Arquivo gerado: tefconsRHLJ1621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1116 - Data de Geracao 22-01-2020 09:41:54
+Arquivo gerado: tefconsRHLJ11621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1238 - Data de Geracao 22-01-2020 09:41:58
+Arquivo gerado: tefconsRHLJ23821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1078 - Data de Geracao 22-01-2020 09:42:01
+Arquivo gerado: tefconsRHLJ7821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1094 - Data de Geracao 22-01-2020 09:42:05
+Arquivo gerado: tefconsRHLJ9421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1169 - Data de Geracao 22-01-2020 09:42:28
+Arquivo gerado: tefconsRHLJ16921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1244 - Data de Geracao 22-01-2020 09:42:32
+Arquivo gerado: tefconsRHLJ24421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1015 - Data de Geracao 22-01-2020 09:42:35
+Arquivo gerado: tefconsRHLJ1521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1154 - Data de Geracao 22-01-2020 09:42:38
+Arquivo gerado: tefconsRHLJ15421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1203 - Data de Geracao 22-01-2020 09:42:41
+Arquivo gerado: tefconsRHLJ20321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1216 - Data de Geracao 22-01-2020 09:42:44
+Arquivo gerado: tefconsRHLJ21621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1147 - Data de Geracao 22-01-2020 09:42:48
+Arquivo gerado: tefconsRHLJ14721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1167 - Data de Geracao 22-01-2020 09:42:51
+Arquivo gerado: tefconsRHLJ16721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1175 - Data de Geracao 22-01-2020 09:42:54
+Arquivo gerado: tefconsRHLJ17521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1018 - Data de Geracao 22-01-2020 09:42:57
+Arquivo gerado: tefconsRHLJ1821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1098 - Data de Geracao 22-01-2020 09:43:01
+Arquivo gerado: tefconsRHLJ9821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1050 - Data de Geracao 22-01-2020 09:43:05
+Arquivo gerado: tefconsRHLJ5021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1122 - Data de Geracao 22-01-2020 09:43:08
+Arquivo gerado: tefconsRHLJ12221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1137 - Data de Geracao 22-01-2020 09:43:12
+Arquivo gerado: tefconsRHLJ13721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1028 - Data de Geracao 22-01-2020 09:43:16
+Arquivo gerado: tefconsRHLJ2821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1072 - Data de Geracao 22-01-2020 09:43:19
+Arquivo gerado: tefconsRHLJ7221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1165 - Data de Geracao 22-01-2020 09:43:22
+Arquivo gerado: tefconsRHLJ16521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1205 - Data de Geracao 22-01-2020 09:43:25
+Arquivo gerado: tefconsRHLJ20521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1011 - Data de Geracao 22-01-2020 09:43:29
+Arquivo gerado: tefconsRHLJ1121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1076 - Data de Geracao 22-01-2020 09:43:32
+Arquivo gerado: tefconsRHLJ7621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1093 - Data de Geracao 22-01-2020 09:43:35
+Arquivo gerado: tefconsRHLJ9321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1006 - Data de Geracao 22-01-2020 09:43:38
+Arquivo gerado: tefconsRHLJ621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1024 - Data de Geracao 22-01-2020 09:43:41
+Arquivo gerado: tefconsRHLJ2421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1163 - Data de Geracao 22-01-2020 09:43:44
+Arquivo gerado: tefconsRHLJ16321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1101 - Data de Geracao 22-01-2020 09:43:47
+Arquivo gerado: tefconsRHLJ10121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1087 - Data de Geracao 22-01-2020 09:43:59
+Arquivo gerado: tefconsRHLJ8721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1212 - Data de Geracao 22-01-2020 09:44:02
+Arquivo gerado: tefconsRHLJ21221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1102 - Data de Geracao 22-01-2020 09:44:06
+Arquivo gerado: tefconsRHLJ10221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1121 - Data de Geracao 22-01-2020 09:44:09
+Arquivo gerado: tefconsRHLJ12121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1047 - Data de Geracao 22-01-2020 09:44:12
+Arquivo gerado: tefconsRHLJ4721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1060 - Data de Geracao 22-01-2020 09:44:15
+Arquivo gerado: tefconsRHLJ6021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1068 - Data de Geracao 22-01-2020 09:44:19
+Arquivo gerado: tefconsRHLJ6821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1021 - Data de Geracao 22-01-2020 09:44:22
+Arquivo gerado: tefconsRHLJ2121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1040 - Data de Geracao 22-01-2020 09:44:25
+Arquivo gerado: tefconsRHLJ4021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1056 - Data de Geracao 22-01-2020 09:44:29
+Arquivo gerado: tefconsRHLJ5621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1237 - Data de Geracao 22-01-2020 09:44:32
+Arquivo gerado: tefconsRHLJ23721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1020 - Data de Geracao 22-01-2020 09:44:36
+Arquivo gerado: tefconsRHLJ2021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1092 - Data de Geracao 22-01-2020 09:44:39
+Arquivo gerado: tefconsRHLJ9221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1131 - Data de Geracao 22-01-2020 09:44:43
+Arquivo gerado: tefconsRHLJ13121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1111 - Data de Geracao 22-01-2020 09:44:50
+Arquivo gerado: tefconsRHLJ11121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1114 - Data de Geracao 22-01-2020 09:44:54
+Arquivo gerado: tefconsRHLJ11421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1124 - Data de Geracao 22-01-2020 09:44:57
+Arquivo gerado: tefconsRHLJ12421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1005 - Data de Geracao 22-01-2020 09:45:00
+Arquivo gerado: tefconsRHLJ521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1053 - Data de Geracao 22-01-2020 09:45:03
+Arquivo gerado: tefconsRHLJ5321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1084 - Data de Geracao 22-01-2020 09:45:06
+Arquivo gerado: tefconsRHLJ8421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1224 - Data de Geracao 22-01-2020 09:45:10
+Arquivo gerado: tefconsRHLJ22421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1176 - Data de Geracao 22-01-2020 09:45:13
+Arquivo gerado: tefconsRHLJ17621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1095 - Data de Geracao 22-01-2020 09:45:16
+Arquivo gerado: tefconsRHLJ9521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1135 - Data de Geracao 22-01-2020 09:45:18
+Arquivo gerado: tefconsRHLJ13521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1207 - Data de Geracao 22-01-2020 09:45:21
+Arquivo gerado: tefconsRHLJ20721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1071 - Data de Geracao 22-01-2020 09:45:25
+Arquivo gerado: tefconsRHLJ7121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1130 - Data de Geracao 22-01-2020 09:45:28
+Arquivo gerado: tefconsRHLJ13021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1197 - Data de Geracao 22-01-2020 09:45:37
+Arquivo gerado: tefconsRHLJ19721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1022 - Data de Geracao 22-01-2020 09:45:40
+Arquivo gerado: tefconsRHLJ2221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1073 - Data de Geracao 22-01-2020 09:45:42
+Arquivo gerado: tefconsRHLJ7321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1091 - Data de Geracao 22-01-2020 09:45:45
+Arquivo gerado: tefconsRHLJ9121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1152 - Data de Geracao 22-01-2020 09:45:48
+Arquivo gerado: tefconsRHLJ15221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1206 - Data de Geracao 22-01-2020 09:45:51
+Arquivo gerado: tefconsRHLJ20621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1138 - Data de Geracao 22-01-2020 09:45:54
+Arquivo gerado: tefconsRHLJ13821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1230 - Data de Geracao 22-01-2020 09:45:57
+Arquivo gerado: tefconsRHLJ23021012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1029 - Data de Geracao 22-01-2020 09:46:00
+Arquivo gerado: tefconsRHLJ2921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1041 - Data de Geracao 22-01-2020 09:46:03
+Arquivo gerado: tefconsRHLJ4121012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1104 - Data de Geracao 22-01-2020 09:46:07
+Arquivo gerado: tefconsRHLJ10421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1144 - Data de Geracao 22-01-2020 09:46:10
+Arquivo gerado: tefconsRHLJ14421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1139 - Data de Geracao 22-01-2020 09:46:14
+Arquivo gerado: tefconsRHLJ13921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1009 - Data de Geracao 22-01-2020 09:46:17
+Arquivo gerado: tefconsRHLJ921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1186 - Data de Geracao 22-01-2020 09:46:20
+Arquivo gerado: tefconsRHLJ18621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1229 - Data de Geracao 22-01-2020 09:46:26
+Arquivo gerado: tefconsRHLJ22921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1115 - Data de Geracao 22-01-2020 09:46:30
+Arquivo gerado: tefconsRHLJ11521012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1202 - Data de Geracao 22-01-2020 09:46:34
+Arquivo gerado: tefconsRHLJ20221012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1039 - Data de Geracao 22-01-2020 09:46:37
+Arquivo gerado: tefconsRHLJ3921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1133 - Data de Geracao 22-01-2020 09:46:40
+Arquivo gerado: tefconsRHLJ13321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1007 - Data de Geracao 22-01-2020 09:46:53
+Arquivo gerado: tefconsRHLJ721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1199 - Data de Geracao 22-01-2020 09:46:56
+Arquivo gerado: tefconsRHLJ19921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1208 - Data de Geracao 22-01-2020 09:47:00
+Arquivo gerado: tefconsRHLJ20821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1109 - Data de Geracao 22-01-2020 09:47:03
+Arquivo gerado: tefconsRHLJ10921012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1034 - Data de Geracao 22-01-2020 09:47:06
+Arquivo gerado: tefconsRHLJ3421012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1083 - Data de Geracao 22-01-2020 09:47:10
+Arquivo gerado: tefconsRHLJ8321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1166 - Data de Geracao 22-01-2020 09:47:12
+Arquivo gerado: tefconsRHLJ16621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1036 - Data de Geracao 22-01-2020 09:47:16
+Arquivo gerado: tefconsRHLJ3621012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1153 - Data de Geracao 22-01-2020 09:47:19
+Arquivo gerado: tefconsRHLJ15321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1128 - Data de Geracao 22-01-2020 09:47:22
+Arquivo gerado: tefconsRHLJ12821012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1103 - Data de Geracao 22-01-2020 09:47:25
+Arquivo gerado: tefconsRHLJ10321012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1127 - Data de Geracao 22-01-2020 09:47:28
+Arquivo gerado: tefconsRHLJ12721012020.txt
+Data do arquivo gerado: 2020-01-21
+usuario geracao: AFERREIRA
+____________________________________________________________

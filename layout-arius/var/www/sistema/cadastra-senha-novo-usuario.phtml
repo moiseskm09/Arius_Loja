@@ -1,0 +1,91 @@
+<?php
+    require_once "CadastrarSenhaNovoUsuario.class.php";
+    $class = New CadastrarSenhaNovoUsuario();
+    if(isset($_POST['frm-envia-senha'])){
+        $class->salvaSenha();
+    }
+?>
+<html>
+<head>
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <META HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
+    <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+
+    <title>Arius Loja - Novo usuário</title>
+    <script type="text/javascript" src="js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="cadastra-senha-novo-usuario.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/estilo.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
+
+</head>
+
+
+
+ <div class="container-fluid">
+      <div class="row">
+
+    <div class="col-sm col-md-12 col-lg-12 col-xl-12">
+              <center>
+              <div class="card text-center  ">
+              <div class="card-header">
+                <h5>Usu&aacute;rio: <?php echo $class->user;?></h5>
+              </div>
+              <div class="card-body">
+                <form name="frm-new-pass" class="frm" id="frm-new-pass" method="post" action="cadastra-senha-novo-usuario.phtml" autocomplete="off">
+                <div class="form-group">
+                  <img class="card-title" id="logo-login" src="imagens/ariuslogo.png" style="width: 200px;">
+                </div> 
+                
+
+                <div class="form-group ">
+                <input type="password" name="senha" required id="senha" pattern="[0-9]*" data-toggle="tooltip" title="A senha deve conter apenas números." size="16" maxlength="6" placeholder="Senha = M&aacute;x. 6 n&uacute;meros" autofocus>
+                </div>
+                
+                <div class="form-group">
+                  <input type="password" name="confirmar-senha" pattern="[0-9]*" data-toggle="tooltip" title="Reinserir a senha. A senha deve conter apenas números." required id="confirmar-senha" maxlength="6" size="16" placeholder="Confirme a Senha">
+                </div>
+                
+              <b>
+                    <?php
+                        echo $class->mensagem;
+                    ?>
+                </b>
+
+                <div class="form-group">
+                <input class="btn btn-success" style="width: 149px; padding: 0;" type="submit" id="botao" value="Cadastrar">
+                <input class="btn btn-danger" style="width: 149px; padding: 0;" type="button" id="cancelar" value="Cancelar">
+                </div>
+
+
+                <input type="hidden" id="codigo-usuario" name="codigo-usuario" value="<?php echo $class->user;?>">
+                <input type="hidden" id="frm-envia-senha" name="frm-envia-senha" value="sim">
+
+              </form>
+              </div>
+              <div class="card-footer text-muted">
+                    <span><p id="direitos"><a href="http://www.arius.com.br" id="arius">Arius Sistemas</a> - Todos os direitos reservados&copy;</p></span>
+                    <div class="d-flex justify-content-end social_icon">
+                    <span><a target="_blank" href="https://www.facebook.com/ariussistemas/" id="social"><i class="fab fa-facebook-square"></i></a></span>
+                    <span><a target="_blank" href="https://www.linkedin.com/company/arius-sistemas/" id="social"><i class="fab fa-linkedin"></i></a></span>
+                    <span><a target="_blank" href="https://www.youtube.com/channel/UCg3VsGK0dHBfPz8eRvPjQDA" id="social"><i class="fab fa-youtube-square"></i></a></span>
+                  </div>
+              </div>
+            </div>     
+  
+
+</center>   
+
+
+   </div>
+   </div>
+   
+  
+  </body>
+
+</html>

@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../sistema/temas/{TEMA}/style.css">
+    </head>
+
+	<script language="javascript">
+		function abreMenu (var1) {
+
+			for (var i = 0; i < document.f.elements.length; i++) {
+				cod = document.f.elements[i].value;
+
+				if (document.getElementById(cod).style.display == "block" && var1 != cod) {
+					document.getElementById(cod).style.display = "none";
+					document.getElementById(cod).style.visibility = "hidden";
+				}
+			}
+
+			if (document.getElementById(var1).style.display != "block") {
+				document.getElementById(var1).style.display = "block";
+				document.getElementById(var1).style.visibility = "visible";
+			} else {
+				document.getElementById(var1).style.display = "none";
+				document.getElementById(var1).style.visibility = "hidden";
+			}
+		}
+
+	</script>
+
+    <body topmargin="0" leftmargin="0" rightmargin="0" class="lateral">
+		<form name="f" id="f">
+		{menu}
+		</form>
+    </body>
+</html>

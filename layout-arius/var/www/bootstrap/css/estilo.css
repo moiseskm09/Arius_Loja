@@ -1,0 +1,72 @@
+html,body{
+/*background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');*/
+background-size: cover;
+background: linear-gradient(to right, #3d4c9d, #302b63, #3d4c9d);
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container-fluid {
+	background: linear-gradient(to right, #3d4c9d, #302b63, #3d4c9d);
+	height: 100%;
+	width: 100%;
+	
+}
+
+.social_icon span{
+font-size: 30px;
+margin-left: 7px;
+color: #FFC312;
+text-align: right;
+right: 1px;
+}
+
+.card { top:50px;
+	width: 500px;
+	}
+
+#social:link { color: #FFC312; }
+#social:visited{ color: #FFC312; }
+#social:hover {color: #302b63; cursor: pointer;}
+
+.social_icon{margin-top: -50px; right: 20px;}
+
+#arius {text-align: left;}
+
+#arius:link { color: #2E64FE; }
+
+#arius:visited{ color: #2E64FE; }
+
+#arius:hover { color: #2E64FE; background: #f4ba5b;}
+
+#arius:active { color: #2E64FE; background: #f4ba5b; }
+
+#direitos {
+	text-align: left;
+}
+
+
+input {
+	width: 300px;
+	border-radius: 8px;
+	padding: 5px;
+	font-size: 15px;
+	
+}
+
+input:focus { 
+ border-radius: 10px;
+}
+
+#chat {
+	position: absolute;
+	bottom: 0px;
+	width: 50px;
+	right: 5px;
+}
+
+#novidade {
+	background-color: red; top: 20px;
+}

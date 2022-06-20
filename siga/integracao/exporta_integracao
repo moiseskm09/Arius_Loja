@@ -1,0 +1,33 @@
+<?php
+    $data = date('Y-m-d');
+    $host = '172.16.0.33';
+    $user = 'pleno';
+    $pass = '@5zA5XVw3cXFgLuqp@';
+    $banco = 'plenop';
+    $conexao = mysqli_connect ($host, $user, $pass) or die (mysqli_error("falha na conexao"));
+    mysqli_select_db($conexao, $banco) or die (mysqli_error("banco de dados nao encontrado"));
+    
+    $consulta = mysqli_query ($conexao,"SELECT * FROM mon99_pendentes WHERE dataproc = '$data' ORDER BY cnt_pendente DESC");
+    
+    $host2 = 'localhost';
+    $user2 = 'root';
+    $pass2 = 'm221213';
+    $banco2 = 'siga';
+    $conexao2 = mysqli_connect ($host2, $user2, $pass2) or die (mysqli_error("falha na conexao"));
+    mysqli_select_db($conexao2, $banco2) or die (mysqli_error("banco de dados nao encontrado"));
+
+    
+    while($resultado = mysqli_fetch_array($consulta)) {
+         $nroloja = $resultado["nroloja"];
+         $data_atu = $resultado["dataproc"];
+         $cnt_pendente = $resultado["cnt_pendente"];
+         $vlr_pendente = $resultado["vlr_pendente"];
+         $cnt_total = $resultado["cnt_total"];
+         $vlr_total = $resultado["vlr_total"];
+         $cnt_troca = $resultado["cnt_troca"];
+         $vlr_troca = $resultado["vlr_troca"];
+         $ts_update = $resultado['ts_update'];
+        $insere = mysqli_query ($conexao2, "UPDATE mon99_pendentes SET nroloja = '$nroloja', dataproc='$data_atu', cnt_pendente = '$cnt_pendente' , vlr_pendente = '$vlr_pendente' , cnt_total = '$cnt_total', vlr_total = '$vlr_total', cnt_troca = '$cnt_troca' , vlr_troca = '$vlr_troca' , ts_update = '$ts_update' WHERE nroloja = '$nroloja'");
+     echo $nroloja."<br>";
+    }
+ ?>

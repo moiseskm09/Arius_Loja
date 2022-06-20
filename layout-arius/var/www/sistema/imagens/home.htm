@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../sistema/temas/{TEMA}/style.css">
+    </head>
+
+    <body class="meio">
+
+        <table border="0" width="100%" class="meio">
+            <tr><td class="titulo_pagina">Bem-vindo ao Sistema Retaguarda Front-Office {VERSAO}</td></tr>
+            <tr><td><br></td></tr>
+        </table>
+        <table border="0" width="300" class="meio">
+            <tr><td><a href="phpinfo.php" class="meio">Configurações do Servidor (phpinfo)</a></td></tr>
+            <tr><td><a href="{path}phpMyAdmin/index.php" target="_blanc" class="meio">Banco de Dados (phpMyAdmin)</a></td></tr>
+            <tr><td><a href="../ferramentas/configuracoes/importacao/importacao.php?cgc={CGC}" class="meio">Atualização de licenças</a></td></tr>
+            <tr><td><br></td></tr>
+            <tr><td class="subtitulo_meio" height="20">Cliente</td></tr>
+            <tr><td>{RAZAO} Loja/{LOJA}</td></tr>
+            <tr><td>{CIDADE} - {UF}</td></tr>
+            <tr><td><br></td></tr>
+            <tr><td class="subtitulo_meio" height="20">Desenvolvimento</td></tr>
+            <tr><td>Wiebbelling KW Informática ltda.</td></tr>
+			<tr><td><br></td></tr>
+        </table>
+		{data}
+    </body>
+</html>

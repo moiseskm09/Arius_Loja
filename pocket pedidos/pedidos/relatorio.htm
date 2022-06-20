@@ -1,0 +1,331 @@
+<!-- START BLOCK : blk_geral-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{inc_path}/temas/{TEMA}/style.css">
+        <script language="javascript" src="{inc_path}/js/jquery/jquery.js"></script>
+        <script type="text/javascript" src="{inc_path}/js/jquery/jquery.maskedinput.js"></script>
+        <script type="text/javascript" src="{inc_path}/js/jquery/jquery-ui/js/jquery-ui.js"></script>
+        <script type="text/javascript" src="{inc_path}/js/jquery/kw_utils/kw_utils.js"></script>
+        <link rel="stylesheet" type="text/css" href="{inc_path}/js/jquery/jquery-ui/css/blitzer/jquery-ui.css" />
+        <link id="IMAGE_PATH" href="{IMAGE_PATH}" />
+        <script type="text/javascript" src="relatorio.js"></script>
+		<style>
+        .risca{
+		text-decoration: line-through;
+		color: red;
+		}
+		</style>
+    </head>
+	<body class="meio" {print}>
+      		<!-- START BLOCK : blk_dadosrelatorio -->
+		  <form id="form1" name="f" method="get">
+				<table cellpadding="1" cellspacing="0" width="400" class="meio">
+					<tr>
+						<td colspan="4" class="titulo_meio" valign="top">
+							<input type="hidden" id="print" name="print" />
+							&nbsp;Relatório de pedidos
+						</td>
+					</tr>
+					<tr>
+						<td height="20">
+							<br />
+						</td>
+					</tr>
+					<tr>
+						<td width="70" class="chamada_meio">
+							Data inicial:
+						</td>
+						<td width="120" class="chamada_meio">
+							<input type="text" name="dataproc_i" id="dataproc_i"  value="{dataproc_i}" size="11" maxlength="10" class="meio data" />
+							
+                                                </td>
+					</tr>
+					<tr>
+						<td width="45" class="chamada_meio">
+							Data final:
+						</td>
+						<td width="170">
+							<input type="text" name="dataproc_f" id="dataproc_f" value="{dataproc_f}" size="11" maxlength="10" class="meio data" />
+							
+						</td>
+					</tr>
+					<tr>
+                                                <td class="chamada_meio">
+				                        CPF:
+                                                </td>
+                                                <td width="445">
+                                                        <input type="text" name="cpf" id="cpf" size="18" maxlength="50" style="text-align:right;" class="meio" />
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                                <td class="chamada_meio">
+				                    Placa:
+                                                </td>
+                                                <td width="445">
+                                                    <input type="text" name="placa" id="placa" size="10" maxlength="20" style="text-align:right;" class="meio" />
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                                <td class="chamada_meio">
+				                    Vendedor:
+                                                </td>
+                                                <td class="chamada_meio">
+                                                    {vendedor}
+					       </td>
+                                        </tr>
+					<tr>
+						<td width="50" class="chamada_meio">
+							Status:
+						</td>
+						<td class="chamada_meio">
+                            {status}
+						</td>
+					</tr>
+                    <tr>
+                        <td width="50" class="chamada_meio">
+                            Comanda:
+                        </td>
+                        <td class="chamada_meio">
+                            {comanda}
+                        </td>
+                    </tr>
+
+					<tr>
+						<td>
+							<br />
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<input type="button" id="btn_html" value="Gerar HTML" />
+							&nbsp;
+							<input type="button" id="btn_print" value="Imprimir" />
+						</td>
+					</tr>
+
+				</table>
+		</form>
+		<!-- END BLOCK : blk_dadosrelatorio -->
+
+                
+	       <!-- START BLOCK : blk_cabecalho_pdf-->
+			<table border="1" width="600">
+				<tr>
+					<td nowrap="nowrap">
+						RELATÓRIO DE PEDIDOS DE {dataproc_i} À {dataproc_f}
+					</td>
+					<td>
+						Data:&nbsp;{data_atual}
+					</td>
+					<td>
+						Loja:&nbsp;{loja}
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Razão:&nbsp;{razao}
+					</td>
+					<td colspan="2">
+						CNPJ:&nbsp;{cnpj}
+					</td>
+				</tr>
+			</table>
+	       <!-- END BLOCK : blk_cabecalho_pdf-->
+	       <!-- START BLOCK : blk_relatorio-->
+               <table class="datagrid" border="{border}" cellpadding="1" cellspacing="0" width="700">
+                   
+		 <!-- START BLOCK : blk_linhas-->
+			<!-- START BLOCK : blk_cabecalho -->
+                           <tr>
+			       <td class="cabecalho_meio" colspan="10">
+				   {dataproc}
+			       </td>
+			   </tr>
+                           
+			   <tr>
+			       <td class="cabecalho_meio">
+				  <div class="cabecalho_meio">
+					N° Pedido
+				  </div>
+			       </td>
+				   <td class="cabecalho_meio">
+					   <div class="cabecalho_meio">
+						  Vendedor
+					   </div>
+				   </td>
+				   <td class="cabecalho_meio">
+					   <div class="cabecalho_meio">
+						  Status
+					   </div>
+				   </td>
+                                   <td class="cabecalho_meio">
+					   <div class="cabecalho_meio">
+						  Nome Cliente
+					   </div>
+				   </td>
+                                   <td class="cabecalho_meio">
+					   <div class="cabecalho_meio">
+						  Cpf
+					   </div>
+				   </td>
+                                   <td class="cabecalho_meio">
+					   <div class="cabecalho_meio">
+					 	  Placa
+					   </div>
+				   </td>
+                                   <td class="cabecalho_meio">
+					   <div class="cabecalho_meio">
+						  Comanda
+					   </div>
+				   </td>
+                                    <td class="cabecalho_meio">
+					   <div class="cabecalho_meio">
+						  Total
+					   </div>
+				   </td>
+				   <td class="cabecalho_meio">
+					   <div class="cabecalho_meio">
+						   Total desconto
+					   </div>
+				   </td>
+				   <td class="cabecalho_meio">
+					   <div class="cabecalho_meio">
+						   Total pedido
+					   </div>
+				   </td>
+			  </tr>
+			<!-- END BLOCK : blk_cabecalho -->
+			<!-- START BLOCK : blk_cabecalho2 -->
+ <!--			<tr>
+				<td class="cabecalho_meio" colspan="8">
+					comanda {comanda}  {nomeCliente}<br>  {cpfCliente} {placa}
+				</td>
+			</tr>-->
+			<!-- END BLOCK : blk_cabecalho2 -->
+			   <tr class="{cor_linha}">
+				    <td valign="top" class="chamada_meio" align="center" style="color: blue; text-decoration: underline; cursor: pointer" onclick="javascript: busca_itens( '{pedido}' );">
+					    {pedido}
+				    </td>
+				    <td valign="top" class="chamada_meio" align="center">
+					    {usuario}
+				    </td>
+				    <td valign="top" class="chamada_meio" align="center">
+					    {status}
+				    </td>
+                                    <td valign="top" class="chamada_meio" align="center" width="150">
+					    {nomeCliente}
+				    </td>
+                                    <td valign="top" class="chamada_meio" align="center">
+					    {cpfCliente}
+				    </td>
+                                    <td valign="top" class="chamada_meio" align="center">
+					    {placa}
+				    </td>
+                                    <td valign="top" class="chamada_meio" align="center">
+					    {comanda}
+				    </td>
+                                     <td valign="top" class="chamada_meio" align="right">
+					    {total_pedido}
+                                    </td>
+				    <td valign="top" class="chamada_meio" align="right">
+					    {total_desconto}
+                                    </td>
+				    <td valign="top" class="chamada_meio" align="right">
+					    <div id="{pedido}" style="display: none;"></div>
+					    {total_pedido_final}
+                                    </td>
+                                    
+			   </tr>
+			<!--START BLOCK : blk_total_comanda-->
+			   <tr>
+				    <td class="cabecalho_meio" colspan="3" style="text-align: right">
+					    <i>
+						    Total comanda
+					    </i>
+				    </td>
+				    <td class="cabecalho_meio" colspan="7" style="text-align: right">
+					    <i>
+						    {total_comanda}
+					    </i>
+				    </td>
+			   </tr>
+			<!--END BLOCK : blk_total_comanda-->
+			<!--START BLOCK : blk_total_data-->
+			   <tr>
+				    <td class="cabecalho_meio" colspan="3" style="text-align: right">
+					   <i>
+						  Total data
+					   </i>
+				    </td>
+				    <td class="cabecalho_meio" colspan="7" style="text-align: right">
+					   <i>
+						  {total_data}
+					   </i>
+				    </td>
+			   </tr>
+			<!--END BLOCK : blk_total_data-->
+		 <!-- END BLOCK : blk_linhas-->
+	  <!--START BLOCK : blk_total_periodo-->
+		  <tr>
+				<td class="cabecalho_meio" colspan="3" style="text-align: right">
+					<i>
+						Total período
+					</i>
+				</td>
+				<td class="cabecalho_meio" colspan="7" style="text-align: right">
+					<i>
+						{total_periodo}
+					</i>
+				</td>
+		  </tr>
+	  <!--END BLOCK : blk_total_periodo-->
+	</table>
+ <!-- END BLOCK : blk_relatorio--> 
+</body>
+</html>
+<!-- END BLOCK : blk_geral-->
+
+
+
+<!-- START BLOCK : blk_pedidos_itens-->
+	 <table border="0" cellpadding="0" cellspacing="0"  width="100%" > 
+		 <tr>
+			<td class="meio" colspan="4" align="center">
+				<strong>
+						&Iacute;tens do pedido N&#176;{pedido}
+				</strong>
+			</td>
+		</tr>
+		<!-- START BLOCK : blk_linhas_itens-->
+			<tr>
+				<td valign="top" align="center">
+					<span {risca}>{ean}</span>
+				</td>
+				<td valign="top" align="center">
+				<span {risca}>{descricao}</span>
+					
+				</td>
+				<td valign="top" align="center">
+				<span {risca}>{valorOriginal}</span>
+					
+				</td>
+                                
+				<td valign="top" align="center">
+				<span {risca}>{desconto}</span>
+					
+				</td>
+                           	<td valign="top" align="center" nowrap="nowrap">
+							<span {risca}>({quantidade} X {valorOriginal})</span>
+				</td>
+				<td valign="top" align="right">
+				<span {risca}>{total_iten}</span>
+					
+				</td>
+				<td valign="top" align="right">
+				<span {risca}>{situacao}</span>
+				</td>
+			</tr>
+		<!-- END BLOCK : blk_linhas_itens-->
+	 </table>
+ <!-- END BLOCK : blk_pedidos_itens-->

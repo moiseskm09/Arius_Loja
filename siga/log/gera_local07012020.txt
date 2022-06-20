@@ -1,0 +1,126 @@
+
+____________________________________________________________
+Loja: 9013 - Data de Geracao 07-01-2020 10:09:15
+Arquivo gerado: tefconsPBLJ1302012020.txt
+Data do arquivo gerado: 2020-01-02
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9014 - Data de Geracao 07-01-2020 10:09:22
+Arquivo gerado: tefconsPBLJ1402012020.txt
+Data do arquivo gerado: 2020-01-02
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9027 - Data de Geracao 07-01-2020 10:09:27
+Arquivo gerado: tefconsPBLJ2702012020.txt
+Data do arquivo gerado: 2020-01-02
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9062 - Data de Geracao 07-01-2020 10:09:30
+Arquivo gerado: tefconsPBLJ6202012020.txt
+Data do arquivo gerado: 2020-01-02
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9013 - Data de Geracao 07-01-2020 10:09:44
+Arquivo gerado: tefconsPBLJ1303012020.txt
+Data do arquivo gerado: 2020-01-03
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9014 - Data de Geracao 07-01-2020 10:09:48
+Arquivo gerado: tefconsPBLJ1403012020.txt
+Data do arquivo gerado: 2020-01-03
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9027 - Data de Geracao 07-01-2020 10:09:52
+Arquivo gerado: tefconsPBLJ2703012020.txt
+Data do arquivo gerado: 2020-01-03
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9013 - Data de Geracao 07-01-2020 10:10:03
+Arquivo gerado: tefconsPBLJ1304012020.txt
+Data do arquivo gerado: 2020-01-04
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9014 - Data de Geracao 07-01-2020 10:10:06
+Arquivo gerado: tefconsPBLJ1404012020.txt
+Data do arquivo gerado: 2020-01-04
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9027 - Data de Geracao 07-01-2020 10:10:11
+Arquivo gerado: tefconsPBLJ2704012020.txt
+Data do arquivo gerado: 2020-01-04
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9035 - Data de Geracao 07-01-2020 10:10:15
+Arquivo gerado: tefconsPBLJ3504012020.txt
+Data do arquivo gerado: 2020-01-04
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9013 - Data de Geracao 07-01-2020 10:10:22
+Arquivo gerado: tefconsPBLJ1305012020.txt
+Data do arquivo gerado: 2020-01-05
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9014 - Data de Geracao 07-01-2020 10:10:25
+Arquivo gerado: tefconsPBLJ1405012020.txt
+Data do arquivo gerado: 2020-01-05
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9041 - Data de Geracao 07-01-2020 10:10:29
+Arquivo gerado: tefconsPBLJ4105012020.txt
+Data do arquivo gerado: 2020-01-05
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9013 - Data de Geracao 07-01-2020 10:10:35
+Arquivo gerado: tefconsPBLJ1306012020.txt
+Data do arquivo gerado: 2020-01-06
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9014 - Data de Geracao 07-01-2020 10:10:38
+Arquivo gerado: tefconsPBLJ1406012020.txt
+Data do arquivo gerado: 2020-01-06
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9041 - Data de Geracao 07-01-2020 10:10:41
+Arquivo gerado: tefconsPBLJ4106012020.txt
+Data do arquivo gerado: 2020-01-06
+usuario geracao: AFERREIRA
+____________________________________________________________
+
+____________________________________________________________
+Loja: 9067 - Data de Geracao 07-01-2020 10:10:44
+Arquivo gerado: tefconsPBLJ6706012020.txt
+Data do arquivo gerado: 2020-01-06
+usuario geracao: AFERREIRA
+____________________________________________________________

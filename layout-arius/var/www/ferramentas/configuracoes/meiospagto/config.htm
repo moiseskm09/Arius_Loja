@@ -1,0 +1,873 @@
+<!--START BLOCK : blk_ajax-->
+    <!--START BLOCK : blk_meios_pagto-->
+    <tr class="{odd_even}">
+        <td class="chamada_meio" nowrap="nowrap" align="center">
+            {cod_meio_pagto}
+        </td>
+        <td class="chamada_meio" nowrap="nowrap">
+            {descr_meio_pagto}
+        </td>
+        <td class="chamada_meio" nowrap="nowrap">
+            <input type="hidden" id="{cod_meio_pagto}_codtipofinalizador" value="{codtipofinalizador}" />
+            {descr_finalizadora}
+        </td>
+        <td align="center" class="link" nowrap="nowrap" onclick="javascript: visualizar_editar( '{cod_meio_pagto}' );" >
+            <img src="../../../sistema/imagens/detalhe.png" border="0" alt="Visualizar" title="Visualizar/Editar detalhes '{descr_meio_pagto}'" />
+        </td>
+        <td align="center" nowrap="nowrap" {class_javascript}>
+            <img src="../../../sistema/imagens/b_drop{disabled}.png" border="0" {title} />
+        </td>
+    </tr>
+    <!--END BLOCK : blk_meios_pagto-->
+    
+    <!--START BLOCK : blk_tela_cadastro_meios_pagto-->
+    <tr>
+        <td>
+            <table class="datagrid" width="400" border="0" cellpadding="1" cellspacing="0">
+                <thead>
+                    <tr>
+                        <td style="color:white;" class="cabecalho_meio">
+                            Cod.
+                        </td>
+                        <td style="color:white;" class="cabecalho_meio">
+                            Descr. Meio pagto
+                        </td>
+                        <td style="color:white;" class="cabecalho_meio">
+                            Finalizadora
+                        </td>
+                        <td style="color:white;" colspan="2" class="cabecalho_meio">
+                            Editar/Excluir
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <input type="text" name="codigo" id="codigo" size="2" class="meio" />
+                        </td>
+                        <td>
+                            <input type="text" name="descricao" id="descricao" size="25" class="meio" />
+                        </td>
+                        <td>
+                            {combo_finalizadoras}
+                        </td>
+                        <td colspan="2" align="center" class="meio">
+                            <input type="button" id="btn_incluir" value="Incluir" class="meio" />
+                        </td>
+                    </tr>
+                    
+                </thead>
+                
+                <tbody id="body_meios_pagto">
+                    <!--meios de pagamento sao carregados aqui.-->
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td >
+            <input type="button" id="btn_gerar_menu_pdv" value="Gerar menu pdv" class="meio" />
+            <br />
+            <br />
+        </td>
+    </tr>
+    <!--END BLOCK : blk_tela_cadastro_meios_pagto-->
+    
+    <!--START BLOCK : blk_tela_edita_meios_pagto-->
+    <tr>
+        <td colspan="4">
+            <input type="button" value="Voltar" id="btn_voltar" class="meio" />
+            <input type="button" value="Salvar" id="btn_salvar" class="meio" />
+            <input type="button" value="Excluir" id="btn_excluir" class="meio" />
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <form id="form_detalhes_meios_pagto">
+                <table border="0" cellpadding="1" cellspacing="0" width="400" class="meio" bgcolor="#F5F5F5">
+
+                    <thead>
+
+                        <tr>
+                            <td colspan="3" align="center">
+                                <h2>
+                                    <u>
+                                        {descr_meio_pagto}
+                                    </u>
+                                </h2>
+                                <input type="hidden" name="codtipofinalizador" value="{codtipofinalizador}" />
+                                <input type="hidden" id="hidden_valperctroco" value="{valperctroco}" />
+                                <input type="hidden" id="hidden_nivelliberatroco" value="{nivelliberatroco}" />
+                            </td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+
+                            <!--1° COLUNA-->
+                            <td valign="top">
+                                <table border="0" cellpadding="1" cellspacing="0" width="100%" class="meio">
+                                    <tr>
+                                        <td width="110" class="chamada_meio">
+                                            Código:
+                                        </td>
+                                        <td width="140">
+                                            <input type="text" id="input_codigo" name="input_codigo" size="2" maxlength="2" value="{codigo}" class="meio" style="text-align:right" readonly="readonly" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Descrição:
+                                        </td>
+                                        <td>
+                                            <input type="text" name="input_meiospagto_descricao" size="20" maxlength="20" value="{descricao}" class="meio" />
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Valor minimo:
+                                        </td>
+                                        <td>
+                                            <input type="text" id="valorMinimo" name="input_meiospagto_valorMinimo" value="{valorMinimo}" class="meio" />
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Idxccf:
+                                        </td>
+                                        <td>
+                                            {combo_idxccf}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Tratamento leitura:
+                                        </td>
+                                        <td>
+                                            {combo_solicitarvalor}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio" nowrap>
+                                            Autorizador meio pagto:
+                                        </td>
+                                        <td>
+                                            {combo_codAutorizador}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Contravale:
+                                        </td>
+                                        <td>
+                                            {combo_contravale}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Autorizador CV:
+                                        </td>
+                                        <td>
+                                            {combo_codAutorizadorCV}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Nro vias:
+                                        </td>
+                                        <td>
+                                            {combo_numcupons}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Autenticação:
+                                        </td>
+                                        <td>
+                                            {checkbox_autenticacao}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td nowrap="nowrap" colspan="2">
+                                            <input type="text" id="input_meiospagto_campoautenticacao" name="input_meiospagto_campoautenticacao" size="40" maxlength="128" value="{campoautenticacao}" class="meio" />
+                                            <a id="help_campoautenticacao" class="link" valign="middle">
+                                                <b>
+                                                    ?
+                                                </b>
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Crediario:
+                                        </td>
+                                        <td>
+                                            {checkbox_Crediario}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Deságio:
+                                        </td>
+                                        <td class="chamada_meio">
+                                            <input type="text" name="input_meiospagto_desagio" size="6" style="text-align:right" maxlength="6" value="{desagio}" class="meio" />
+                                            &nbsp;
+                                            Acresc. {checkbox_desagio_acrescimo}
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Código de referência:
+                                        </td>
+                                        <td>
+                                            <input type="text" name="input_meiospagto_referencia" size="6" style="text-align:right" maxlength="3" value="{referencia}" class="meio" />
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Tecla:
+                                        </td>
+                                        <td>
+                                            {combo_tecla}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Permite troco:
+                                        </td>
+                                        <td>
+                                            {combo_troco}
+                                        </td>
+                                    </tr>
+
+                                    <tr id="valor_troco">
+                                        <td class="chamada_meio">
+                                            Maximo de troco:
+                                        </td>
+                                        <td>
+                                            <input type="text" name="input_meiospagto_valperctroco" id="input_meiospagto_valperctroco" size="10" style="text-align:right" maxlength="8" value="{valperctroco}" class="meio" />
+                                        </td>
+                                    </tr>
+
+                                    <tr id="nivel">
+                                        <td class="chamada_meio">
+                                            Liberar troco:
+                                        </td>
+                                        <td>
+                                            {combo_nivelliberatroco}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Liberação:
+                                        </td>
+                                        <td>
+                                            {combo_liberacao}
+                                        </td>
+                                    </tr>
+
+                                    <tr id="gaveta">
+                                        <td class="chamada_meio">
+                                            Aciona Gaveta :
+                                        </td>
+                                        <td>
+                                            {checkbox_acionagaveta}
+                                        </td>
+                                    </tr>
+
+                                    <tr id="gaveta">
+                                        <td class="chamada_meio">
+                                            % de desconto:
+                                        </td>
+                                        <td nowrap="nowrap">
+                                            <input type="text" name="input_meiospagto_percdesconto" id="input_meiospagto_percdesconto" size="10" style="text-align:right" maxlength="8" value="{percdesconto}" class="meio" />
+                                            Tipo desc:
+                                            {combo_tipodesconto}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="chamada_meio">
+                                        Imprimir desconto no subtotal:
+                                        </td>
+                                        <td>
+                                            {checkbox_imprime_desconto_tela}
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Identificação:
+                                        </td>
+                                        <td>
+                                            {combo_desc_cliente_identificado}
+                                        </td>
+                                    </tr>
+
+                                    <tr style="margin: 10px 0px 0px;display: block;">
+                                        <td class="chamada_meio">
+                                            Self Checkout:
+                                        </td>
+                                        <td>
+                                            {checkbox_flgselfcheckout}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <br />
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td align="left" colspan="2">
+                                            <strong id="operacoes" class="link">
+                                                Configurar / Ver Operações
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <!--2° COLUNA-->
+                            <td valign="top">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="1" cellspacing="0" width="250" class="meio" bgcolor="#F5F5F5">
+                                                <tr>
+                                                    <td class="subtitulo_meio" align="center" colspan="2">
+                                                        Sangria
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Valor mín. aviso:
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="input_meiospagto_vlrminimoaviso" size="12" style="text-align:right" maxlength="8" value="{vlrminimoaviso}" class="meio" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Valor máx. aviso:
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="input_meiospagto_vlrmaximoaviso" size="12" style="text-align:right" maxlength="8" value="{vlrmaximoaviso}" class="meio" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Coleta valor:
+                                                    </td>
+                                                    <td>
+                                                        {combo_flgcoletavalor}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Frequencia retirada:
+                                                    </td>
+                                                    <td>
+                                                        {combo_frequenciaretirada}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Via tesouraria:
+                                                    </td>
+                                                    <td>
+                                                        {checkbox_flgviatesouraria}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Via operadora:
+                                                    </td>
+                                                    <td>
+                                                        {checkbox_flgviaoperadora}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Via banco:
+                                                    </td>
+                                                    <td>
+                                                        {checkbox_flgviabanco}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Tecla multiplicadora:
+                                                    </td>
+                                                    <td>
+                                                        {checkbox_flgteclamultiplic}
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Sangria detalhada:
+                                                    </td>
+                                                    <td>
+                                                        {checkbox_sangriaDetalhada}
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Perc. coleta maior:
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="input_meiospagto_perccoletamaior" size="12" style="text-align:right" maxlength="12" value="{perccoletamaior}" class="meio" />
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="chamada_meio">
+                                                        Serviços:
+                                                    </td>
+                                                    <td>
+                                                        {combo_produtos_servicos}
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="chamada_meio" nowrap>
+                                                        Texto adicional:
+                                                    </td>
+                                                    <td class="chamada_meio" valign="middle" nowrap="nowrap">
+                                                        <textarea name="input_meiospagto_textoadicional" cols="40">{textoadicional}</textarea>
+                                                        <a id="help_texto_adicional" class="link" valign="middle">
+                                                            <b>
+                                                                ?
+                                                            </b>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="chamada_meio" nowrap>
+                                                        N° vias texto adicional:
+                                                    </td>
+                                                    <td class="chamada_meio" valign="middle" nowrap="nowrap">
+                                                        <input type="text" name="input_meiospagto_vias_textoadicional" size="2" value="{vias_textoadicional}" class="meio" />
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table>
+                                                <tr>
+                                                    <td colspan="3">
+
+                                                    </td>
+                                                    <td align="center">
+                                                        Autenticar
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio" nowrap>
+                                                        Documento 1:
+                                                    </td>
+                                                    <td nowrap>
+                                                        {checkbox_flgdoc_1}
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="input_meiospagto_documento_1" size="30" maxlength="20" value="{documento_1}" class="meio" />
+                                                    </td>
+                                                    <td nowrap="nowrap" align="center">
+                                                        {checkbox_autentica_doc1}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio" nowrap>
+                                                        Documento 2:
+                                                    </td>
+                                                    <td nowrap>
+                                                        {checkbox_flgdoc_2}
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="input_meiospagto_documento_2" size="30" maxlength="20" value="{documento_2}" class="meio" />
+                                                    </td>
+                                                    <td nowrap="nowrap" align="center">
+                                                        {checkbox_autentica_doc2}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio" nowrap>
+                                                        Documento 3:
+                                                    </td>
+                                                    <td nowrap>
+                                                        {checkbox_flgdoc_3}
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="input_meiospagto_documento_3" size="30" maxlength="20" value="{documento_3}" class="meio" />
+                                                    </td>
+                                                    <td nowrap="nowrap" align="center">
+                                                        {checkbox_autentica_doc3}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio" nowrap>
+                                                        Documento 4:
+                                                    </td>
+                                                    <td nowrap>
+                                                        {checkbox_flgdoc_4}
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="input_meiospagto_documento_4" size="30" maxlength="20" value="{documento_4}" class="meio" />
+                                                    </td>
+                                                    <td nowrap="nowrap" align="center">
+                                                        {checkbox_autentica_doc4}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio" nowrap>
+                                                        Documento 5:
+                                                    </td>
+                                                    <td nowrap>
+                                                        {checkbox_flgdoc_5}
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="input_meiospagto_documento_5" size="30" maxlength="20" value="{documento_5}" class="meio" />
+                                                    </td>
+                                                    <td nowrap="nowrap" align="center">
+                                                        {checkbox_autentica_doc5}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="chamada_meio" nowrap>
+                                                        Documento 6:
+                                                    </td>
+                                                    <td nowrap>
+                                                        {checkbox_flgdoc_6}
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" name="input_meiospagto_documento_6" size="30" maxlength="20" value="{documento_6}" class="meio" />
+                                                    </td>
+                                                    <td nowrap="nowrap" align="center">
+                                                        {checkbox_autentica_doc6}
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <!--3° COLUNA-->
+                            <td valign="top">
+                                <table>
+                                    <tbody id="finalizadores_tipo">
+                                        <!--CONFIGURACOES ESPECIFICAS DOS TIPOS DE FINALIZADORAS.-->
+                                        <!--START BLOCK : blk_finalizadores_cheque-->
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Tipo de cheque:
+                                            </td>
+                                            <td nowrap="nowrap">
+                                                {combo_tipocheque}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Consulta tef:
+                                            </td>
+                                            <td>
+                                                {combo_consultatef}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Cód. aut. lista negra:
+                                            </td>
+                                            <td>
+                                                {combo_codautlistanegra}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Mínimo consulta:
+                                            </td>
+                                            <td>
+                                                <input type="text" name="input_finalizadores_minimoconsulta" size="8" value="{finalizadores_minimoconsulta}" class="meio" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Pergunta consulta:
+                                            </td>
+                                            <td>
+                                                {combo_perguntaConsulta}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Consulta cliente:
+                                            </td>
+                                            <td>
+                                                {combo_consultaTabCli}
+                                            </td>
+                                        </tr>
+                                                                    <tr>
+                                             <td class="chamada_meio">
+                                                 Exibe Calendario:
+                                             </td>
+                                             <td>
+                                                 <input type="text" name="input_finalizadores_exibecalendario" size="6" style="text-align:right" maxlength="3" value="{exibecalendario}" class="meio" />
+                                             </td>
+                                        </tr>
+                                                                   <tr>
+                                        <td class="chamada_meio">
+                                            Valor mín. consulta ln:
+                                        </td>
+                                        <td>
+                                                                            <input type="text" name="input_finalizadores_vlr_min_cons_ln" size="12" style="text-align:right" maxlength="8" value="{vlr_min_cons_ln}" class="meio" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="chamada_meio">
+                                            Valor máx. consulta ln:
+                                        </td>
+                                        <td>
+                                                                            <input type="text" name="input_finalizadores_vlr_max_cons_ln" size="12" style="text-align:right" maxlength="8" value="{vlr_max_cons_ln}" class="meio" />
+                                        </td>
+                                                </tr>
+                                        <!--END BLOCK : blk_finalizadores_cheque-->
+                                        <!--START BLOCK : blk_finalizadores_convenio-->
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Leitura pin pad:
+                                            </td>
+                                            <td>
+                                                {combo_leituraPinPad}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Imprimir saldo:
+                                            </td>
+                                            <td>
+                                                {combo_imprimirSaldo}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Liberar cliente bloqueado:
+                                            </td>
+                                            <td>
+                                                {combo_liberarClienteBloqueado}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Nivel libera Bloqueio:
+                                            </td>
+                                            <td>
+                                                {combo_nivelLiberaBloqueio}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Parcelas do crediário em 1 via:
+                                            </td>
+                                            <td>
+                                                {combo_parcCrediarioEm1Via}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Detalhar Parcelas Crediario:
+                                            </td>
+                                            <td>
+                                                {combo_detalharParcCrediario}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Imprimir Dados Cliente:
+                                            </td>
+                                            <td>
+                                                {combo_imprimirDadosCliente}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Permite identificação digitada:
+                                            </td>
+                                            <td>
+                                                {combo_nivelPermDigCodigo}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Solicitar data Vencimento:
+                                            </td>
+                                            <td>
+                                                {combo_solicitarDataVencto}
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Código de Referência:
+                                            </td>
+                                            <td>
+                                               <input type="text" id="input_codigoReferencia"
+                                               name="input_finalizadores_cod_referencia" size="5" maxlength="5"
+                                               value="{codigoReferencia}" class="meio" style="text-align:right"/>
+                                            </td>
+
+                                        </tr>
+                                        <!--END BLOCK : blk_finalizadores_convenio-->
+                                        <!--START BLOCK : blk_finalizadores_tef-->
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Tipo tef:
+                                            </td>
+                                            <td>
+                                                {combo_tipotef}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Permite digitado:
+                                            </td>
+                                            <td>
+                                                {checkbox_permiteDigitado}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Bandeira:
+                                            </td>
+                                            <td>
+                                                {combo_codbandeira}
+                                            </td>
+                                        </tr>
+                                        <!--END BLOCK : blk_finalizadores_tef-->
+                                        <!--START BLOCK : blk_finalizadores_tefoff-->
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Tipo tefoff:
+                                            </td>
+                                            <td>
+                                                {combo_tipotefoff}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Emitir vinculado:
+                                            </td>
+                                            <td>
+                                                {combo_emitirVinculado}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Abrir lista:
+                                            </td>
+                                            <td>
+                                                {combo_abrirLista}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Solicitar NSU:
+                                            </td>
+                                            <td>
+                                                {combo_solicitarNSU}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Solicitar Modalidade:
+                                            </td>
+                                            <td>
+                                                {combo_solicitarServico}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Solicitar BIN:
+                                            </td>
+                                            <td>
+                                                {combo_solicitarBIN}
+                                            </td>
+                                        </tr>
+                                        <!--END BLOCK : blk_finalizadores_tefoff-->
+                                        <!--START BLOCK : blk_finalizadores_devolucao-->
+                                        <tr>
+                                            <td nowrap="nowrap">
+                                                Permite Digitar:
+                                            </td>
+                                            <td>
+                                                {combo_perguntaDevolucao}
+                                            </td>
+                                        </tr>
+                                        <!--END BLOCK : blk_finalizadores_devolucao-->
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </td>
+    </tr>
+<!--END BLOCK : blk_tela_edita_meios_pagto-->
+    
+<!--END BLOCK : blk_ajax-->
+
+<!--START BLOCK : blk_geral-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{inc_path}/temas/{TEMA}/style.css">
+        <script language="javascript" src="{inc_path}/funcoes.js"></script>
+        <script language="javascript" src="{inc_path}/js/geral.js"></script>
+        <script type="text/javascript" src="{inc_path}/prototype.js"></script>
+        <script type="text/javascript" src="{inc_path}/js/scriptaculous/scriptaculous.js"></script>
+        <script type="text/javascript" src="config.js"></script>
+        
+    </head>
+    <body class="meio">
+        <table border="0" cellpadding="1" cellspacing="0" class="meio">
+            <thead>
+                <tr>
+                    <td class="titulo_meio" valign="top">
+                        &nbsp;Meios de Pagamento
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mensagem_meio" id="mensagem">
+                        <!--as mensagens sao carregadas aqui.-->
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="corpo_pagina" valign="top">
+                <!--cadastro/configuracoes carregam aqui. -->
+            </tbody>
+        </table>
+    </body>
+</html>
+<!--END BLOCK : blk_geral-->

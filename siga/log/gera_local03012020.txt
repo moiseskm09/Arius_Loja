@@ -1,0 +1,84 @@
+
+____________________________________________________________
+Loja: 1033 - Data de Geracao 03-01-2020 10:39:08
+Arquivo gerado: tefconsRHLJ3324122019.txt
+Data do arquivo gerado: 2019-12-24
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1033 - Data de Geracao 03-01-2020 10:39:18
+Arquivo gerado: tefconsRHLJ3326122019.txt
+Data do arquivo gerado: 2019-12-26
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1026 - Data de Geracao 03-01-2020 10:39:45
+Arquivo gerado: tefconsRHLJ2626122019.txt
+Data do arquivo gerado: 2019-12-26
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1176 - Data de Geracao 03-01-2020 10:40:01
+Arquivo gerado: tefconsRHLJ17627122019.txt
+Data do arquivo gerado: 2019-12-27
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1176 - Data de Geracao 03-01-2020 10:40:18
+Arquivo gerado: tefconsRHLJ17627122019.txt
+Data do arquivo gerado: 2019-12-27
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1214 - Data de Geracao 03-01-2020 10:40:39
+Arquivo gerado: tefconsRHLJ21427122019.txt
+Data do arquivo gerado: 2019-12-27
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1102 - Data de Geracao 03-01-2020 10:41:51
+Arquivo gerado: tefconsRHLJ10229122019.txt
+Data do arquivo gerado: 2019-12-29
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1176 - Data de Geracao 03-01-2020 10:42:04
+Arquivo gerado: tefconsRHLJ17629122019.txt
+Data do arquivo gerado: 2019-12-29
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1176 - Data de Geracao 03-01-2020 10:42:36
+Arquivo gerado: tefconsRHLJ17629122019.txt
+Data do arquivo gerado: 2019-12-29
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1176 - Data de Geracao 03-01-2020 10:53:14
+Arquivo gerado: tefconsRHLJ17629122019.txt
+Data do arquivo gerado: 2019-12-29
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1214 - Data de Geracao 03-01-2020 10:54:47
+Arquivo gerado: tefconsRHLJ21429122019.txt
+Data do arquivo gerado: 2019-12-29
+usuario geracao: 
+____________________________________________________________
+
+____________________________________________________________
+Loja: 1214 - Data de Geracao 03-01-2020 10:54:53
+Arquivo gerado: tefconsRHLJ21429122019.txt
+Data do arquivo gerado: 2019-12-29
+usuario geracao: 
+____________________________________________________________
