@@ -149,11 +149,6 @@ require_once 'config_db.php';
                         <label class="fonte">Tipos de Descontos <span class="text-danger">*</span></label>
                         <select class="form-control" name="tipoDesconto" id="tipoDesconto">
                             <option selected value="999">Todos</option>
-                            <option  value="1">Desconto promocional</option>
-                            <option  value="2">Acerto valor</option>
-                            <option  value="4">Desconto subtotal</option>
-                            <option  value="6">Desconto promoção por seção</option>
-
                         </select>
                     </div>
                 </div>
@@ -316,7 +311,31 @@ require_once 'config_db.php';
                         <td class="p-1"><?php echo number_format($row_infoDesconto["valororiginal"], 2, ",", "."); ?></td>
                         <td class="p-1"><?php echo number_format($row_infoDesconto["valor"], 2, ",", "."); ?></td>
                         <td class="p-1"><?php echo number_format($row_infoDesconto["valordesconto"], 2, ",", "."); ?></td>
-                        <td class="p-1"><?php echo $row_infoDesconto["descricao"]; ?></td>
+                        <td class="p-1">
+                            <?php
+                            if($row_infoDesconto["AcertoDesconto"] == 1){
+                                echo "Desconto Promocional";
+                            }elseif ($row_infoDesconto["AcertoDesconto"] == 2){
+                                echo "Acerto de Valor";
+                            }elseif ($row_infoDesconto["AcertoDesconto"] == 3){
+                                echo "Pack Virtual";
+                            }elseif ($row_infoDesconto["AcertoDesconto"] == 4){
+                                echo "Desconto Subtotal";
+                            }elseif ($row_infoDesconto["AcertoDesconto"] == 3){
+                                echo "Sócio Torcedor";
+                            }elseif ($row_infoDesconto["AcertoDesconto"] == 6){
+                                echo "Desconto Cliente/Secao";
+                            }elseif ($row_infoDesconto["AcertoDesconto"] == 7){
+                                echo "Desconto Programado";
+                            }elseif ($row_infoDesconto["AcertoDesconto"] == 8){
+                                echo "Desconto Secao/PDV";
+                            }elseif ($row_infoDesconto["AcertoDesconto"] == 9){
+                                echo "Desconto Plu/Finalizadora";
+                            }else {
+                                echo $row_infoDesconto["descricao"];
+                            }
+                            ?>
+                        </td>
                     </tr>
                     <?php
 
