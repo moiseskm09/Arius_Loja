@@ -77,7 +77,7 @@ require_once 'config_db.php';
                         <select class="form-control" name="nroLoja" id="nroLoja">
                             <option value="999">Escolha a loja</option>
                             <?php
-                            $sqlLoja = "SELECT * FROM cfg_loja";
+                            $sqlLoja = "SELECT * FROM cfg_loja ORDER BY nroloja";
                             $queryLoja = mysqli_query($conexao, $sqlLoja);
                             while ($resultadoLoja = mysqli_fetch_assoc($queryLoja)) {
                                 if (isset($_POST["nroLoja"]) && $_POST["nroLoja"] == $resultadoLoja["nroloja"]) {
@@ -99,14 +99,28 @@ require_once 'config_db.php';
                     <div class="form-group">
                         <label class="fonte">Data Inicial <span class="text-danger">*</span></label>
                         <input type="date" name="dataproc_i" class="form-control input" id="dataproc_i"
-                               value="<?php echo date("Y-m-d") ?>" required>
+                               value="<?php
+                               if (isset($_POST["dataproc_i"]) && $_POST["dataproc_i"] != date("Y-m-d")) {
+                                   echo $_POST["dataproc_i"];
+                               } else {
+                                   echo date("Y-m-d");
+                               }
+
+                               ?>" required>
                     </div>
                 </div>
                 <div class="col-md-2 col-6">
                     <div class="form-group">
                         <label class="fonte">Data Final <span class="text-danger">*</span></label>
                         <input type="date" name="dataproc_f" class="form-control input" id="dataproc_f"
-                               value="<?php echo date("Y-m-d") ?>" required>
+                               value="<?php
+                               if (isset($_POST["dataproc_f"]) && $_POST["dataproc_f"] != date("Y-m-d")) {
+                                   echo $_POST["dataproc_f"];
+                               } else {
+                                   echo date("Y-m-d");
+                               }
+
+                               ?>" required>
                     </div>
                 </div>
                 <div class="col-md-2 col-12">
@@ -135,6 +149,10 @@ require_once 'config_db.php';
                         <label class="fonte">Tipos de Descontos <span class="text-danger">*</span></label>
                         <select class="form-control" name="tipoDesconto" id="tipoDesconto">
                             <option selected value="999">Todos</option>
+                            <option  value="1">Desconto promocional</option>
+                            <option  value="2">Acerto valor</option>
+                            <option  value="4">Desconto subtotal</option>
+                            <option  value="6">Desconto promoção por seção</option>
 
                         </select>
                     </div>
@@ -174,7 +192,7 @@ require_once 'config_db.php';
             $dbnameLoja = "controle";
             $conexaoLoja = mysqli_connect($hostLoja, $userLoja, $passLoja);
             if (mysqli_connect_error()) {
-                echo "Erro de conexão com o banco de dados. Contate o Administrador";
+                echo "<span class='text-danger'>Erro de conexão com o banco de dados. Por favor, tente novamente</span>";
             } else {
                 mysqli_set_charset($conexaoLoja, "utf8");
                 //mysqli_select_db($conexaoLoja, $dbnameLoja);
@@ -253,6 +271,7 @@ require_once 'config_db.php';
             <table class="table table-bordered dataTable fonte" id="example">
                 <thead class="cabecalho">
                 <tr>
+                    <th class="p-2" scope="col">Loja</th>
                     <th class="p-2" scope="col">Data</th>
                     <th class="p-2" scope="col">Pdv</th>
                     <th class="p-2" scope="col">Seção</th>
@@ -260,14 +279,13 @@ require_once 'config_db.php';
                     <th class="p-2" scope="col">Merc</th>
                     <th class="p-2" scope="col">Oper.</th>
                     <th class="p-2" scope="col">Super.</th>
-                    <th class="p-2" scope="col">Cod Cli.</th>
-                    <th class="p-2" scope="col">Item</th>
+                    <th class="p-2" scope="col">Seq Item</th>
                     <th class="p-2" scope="col">Qtd</th>
-                    <th class="p-2" scope="col">Val Unit</th>
-                    <th class="p-2" scope="col">Val Unit Orig</th>
-                    <th class="p-2" scope="col">Valor</th>
-                    <th class="p-2" scope="col">Valor Orig</th>
-                    <th class="p-2" scope="col">Desc</th>
+                    <th class="p-2" scope="col">Un S/Desc</th>
+                    <th class="p-2" scope="col">Un C/Desc</th>
+                    <th class="p-2" scope="col">Tot S/Desc</th>
+                    <th class="p-2" scope="col">Tot C/Desc</th>
+                    <th class="p-2" scope="col">Tot Desc</th>
                     <th class="p-2" scope="col">Tipo Desc</th>
                 </tr>
                 </thead>
@@ -282,6 +300,7 @@ require_once 'config_db.php';
                     $total_valor_unit_original += $row_infoDesconto["valorunitariooriginal"];
                     ?>
                     <tr class="linha">
+                        <td class="p-1"><?php echo $lojaConsultada; ?></td>
                         <th class="p-1"
                             scope="row"><?php echo date('d-m-y', strtotime($row_infoDesconto["dataproc"])) ?></th>
                         <td class="p-1"><?php echo $row_infoDesconto["pdv"]; ?></td>
@@ -290,13 +309,12 @@ require_once 'config_db.php';
                         <td class="p-1"><?php echo substr($row_infoDesconto["descr_merc"], 0, 15); ?></td>
                         <td class="p-1"><?php echo $row_infoDesconto["operador_cod"]; ?></td>
                         <td class="p-1"><?php echo $row_infoDesconto["supervisor_cod"]; ?></td>
-                        <td class="p-1"><?php echo $row_infoDesconto["codigocliente"]; ?></td>
                         <td class="p-1"><?php echo $row_infoDesconto["item"]; ?></td>
                         <td class="p-1"><?php echo number_format($row_infoDesconto["quantidade"], 0, ",", "."); ?></td>
-                        <td class="p-1"><?php echo number_format($row_infoDesconto["valorunitario"], 2, ",", "."); ?></td>
                         <td class="p-1"><?php echo number_format($row_infoDesconto["valorunitariooriginal"], 2, ",", "."); ?></td>
-                        <td class="p-1"><?php echo number_format($row_infoDesconto["valor"], 2, ",", "."); ?></td>
+                        <td class="p-1"><?php echo number_format($row_infoDesconto["valorunitario"], 2, ",", "."); ?></td>
                         <td class="p-1"><?php echo number_format($row_infoDesconto["valororiginal"], 2, ",", "."); ?></td>
+                        <td class="p-1"><?php echo number_format($row_infoDesconto["valor"], 2, ",", "."); ?></td>
                         <td class="p-1"><?php echo number_format($row_infoDesconto["valordesconto"], 2, ",", "."); ?></td>
                         <td class="p-1"><?php echo $row_infoDesconto["descricao"]; ?></td>
                     </tr>
@@ -309,10 +327,10 @@ require_once 'config_db.php';
                 <tr>
                     <td class="p-1 fonte_totais" colspan="9">Total Geral</td>
                     <td class="p-1 fonte_totais"><?php echo $total_quantidade; ?></td>
-                    <td class="p-1 fonte_totais"><?php echo number_format($total_valor_unit, 2, ",", "."); ?></td>
                     <td class="p-1 fonte_totais"><?php echo number_format($total_valor_unit_original, 2, ",", "."); ?></td>
-                    <td class="p-1 fonte_totais"><?php echo number_format($total_valor, 2, ",", "."); ?></td>
+                    <td class="p-1 fonte_totais"><?php echo number_format($total_valor_unit, 2, ",", "."); ?></td>
                     <td class="p-1 fonte_totais"><?php echo number_format($total_original, 2, ",", "."); ?></td>
+                    <td class="p-1 fonte_totais"><?php echo number_format($total_valor, 2, ",", "."); ?></td>
                     <td class="p-1 fonte_totais"><?php echo number_format($total_desconto, 2, ",", "."); ?></td>
                     <td class="p-1 fonte_totais text-center"><a href="https://www.be-mk.com/" target="_blank"><span
                                     style="color:#164259;">be<span style="color:#f7af24;">M</span>K©</span></a></td>
