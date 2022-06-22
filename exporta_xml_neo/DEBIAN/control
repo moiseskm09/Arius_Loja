@@ -1,0 +1,15 @@
+Package:exporta-neo
+Version: 1.0
+Priority: optional
+Architecture: all
+Essential:
+Depends: php, apache2, php-pgsql, zip
+Pre-depends:
+Suggests:
+Installed-Size:
+Maintainer: beMK
+Conflicts:
+Replaces:
+Provides:
+Homepage:https://be-mk.com
+Description: Exportacao xmls do arius loja NEO

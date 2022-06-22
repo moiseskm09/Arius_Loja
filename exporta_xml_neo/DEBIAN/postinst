@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "--  Inicializando a instalação do exportador de xmls do NEO..."
+echo "--  Por favor aguarde..."
+mkdir -p /arius/integracao/exportacao/xml
+chmod 777 /arius/integracao/exportacao/xml
+
+mv /etc/php/7.2/apache2/php.ini /etc/php/7.2/apache2/phpNEO.ini
+cp /var/www/exporta_xml_neo/php.ini /etc/php/7.2/apache2
+mv /etc/php/7.0/apache2/php.ini /etc/php/7.0/apache2/phpNEO.ini
+mv /var/www/exporta_xml_neo/php.ini /etc/php/7.0/apache2
+
+/etc/init.d/apache2/restart
+
+sleep 3
+
+echo "--  Concluido."
+
