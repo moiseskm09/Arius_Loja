@@ -19,5 +19,17 @@ Painel de monitoramento de desempenho dos funcionarios, clientes e de backup.<br
 Arius_Loja/relnfce/<br>
 Relatório para visualização de Cupons NFCE <br>
 <img src="/relnfce/relnfce.png" alt="img"/>
+<br><br>
+Arius_Loja/exporta_xml/<br>
+Exportação de xml's Loja <br>
+<img src="/exporta_xml/exporta_xml_loja.png" alt="img"/>
+<br><br>
+Arius_Loja/exporta_xml_pleno/<br>
+Exportação de xml's Pleno <br>
+<img src="/exporta_xml_pleno/exporta_xml_pleno.png" alt="img"/>
+<br><br>
+Arius_Loja/exporta_xml_neo/<br>
+Exportação de xml's NEO <br>
+<img src="/exporta_xml_neo/exporta_neo.png" alt="img"/>
 <br>
  Projetos Arius
